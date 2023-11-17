@@ -1,0 +1,165 @@
+version: "1"
+
+stages:
+
+  # [START build]
+  build:
+    steps:
+      # Build the Maven image to be used on all environments
+      - name: mvn-artifactory-package
+        image: maven:3.9.0-amazoncorretto-17
+        ruleset:
+          if:
+            branch: [develop, stage, main]
+            event: [ push, pull_request, tag ]
+        secrets:
+          - source: ARTIFACTORY_USERNAME
+            target: ARTIFACTORY_USERNAME
+          - source: ARTIFACTORY_PASSWORD
+            target: ARTIFACTORY_PASSWORD
+        environment:
+          MAVEN_OPTS: -Xms2048m -Xmx4096m
+        commands:
+          - export LANG=en_US.UTF-8
+          - mvn clean install
+
+      # Build the Docker image to be used on all dev environments 
+      - name: build-dev
+        image: docker-utilities.binrepo.somedomain.in/enablementtools/docker-plugin:3-stable
+        ruleset:
+          branch: [develop]
+          event: [push, tag]
+        parameters:
+          skip_existing: true
+          dockerfile: ./Dockerfile
+          repo: techhealth_be
+          tags:
+            - latest
+            - "dev-${VELA_BUILD_COMMIT:0:7}"
+
+      # Build the Docker image to be used on all stage environments
+      - name: build-stage
+        image: docker-utilities.binrepo.somedomain.in/enablementtools/docker-plugin:3-stable
+        ruleset:
+          branch: [stage]
+          event: [push, tag]
+        parameters:
+          skip_existing: false
+          dockerfile: ./Dockerfile
+          repo: techhealth_be
+          tags:
+            - latest
+            - "stage-${VELA_BUILD_COMMIT:0:7}"
+
+      # Build the Docker image to be used on all prod environments
+      - name: build-prod
+        image: docker-utilities.binrepo.somedomain.in/enablementtools/docker-plugin:3-stable
+        ruleset:
+          branch: [main]
+          event: [push, tag]
+        parameters:
+          skip_existing: false
+          dockerfile: ./Dockerfile
+          repo: techhealth_be
+          tags:
+            - latest
+            - "prod-${VELA_BUILD_COMMIT:0:7}"
+  # [END build]
+
+  # [START scan]
+  scan:
+    steps:
+      # Run Veracode policy scan for codebase
+      - name: code-scan-veracode-policy-scan
+        image: openjdk:8
+        ruleset:
+          operator: and
+          matcher: regexp
+          if:
+            event: [ push ]
+            branch: [ develop, stage, main ]
+        secrets: [ veracode_user, veracode_pass ]
+        commands:
+          - apt-get -qq update && apt-get -qq --assume-yes install wget zip
+          - git archive --format=zip HEAD -o ${VELA_REPO_NAME}-veracode-${VELA_BUILD_NUMBER}.zip
+          - wget https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/21.2.7.4/vosp-api-wrappers-java-21.2.7.4.jar -O veracode-api-jar.jar
+          - java -jar veracode-api-jar.jar -action uploadandscan -vid $VERACODE_USER -vkey
+            $VERACODE_PASS -appname 'TechDebt - Backend' -filepath ${VELA_REPO_NAME}-veracode-${VELA_BUILD_NUMBER}.zip
+            -createprofile false -selectedpreviously true -version ${VELA_REPO_NAME}-${VELA_BUILD_NUMBER} -scantimeout
+            60 || true
+  # [END scan]
+
+  deploy-dev:
+    needs:
+      - build
+      - scan
+    steps:
+      # Deploy dev
+      - name: techhealth-be-deploy-dev
+        image: docker-utilities.binrepo.somedomain.in/captain:1-stable
+        ruleset:
+          event: [push, tag]
+          branch: [develop]
+        parameters:
+          captain_file: .captain.yml
+          edge_auth: false
+          run_apply: true
+          env: dev
+          version: "dev-${VELA_BUILD_COMMIT:0:7}"
+
+  deploy-stage:
+    needs: build
+    steps:
+
+      # Deploy stage
+      - name: techhealth-be-deploy-stage
+        image: docker-utilities.binrepo.somedomain.in/captain:1-stable
+        ruleset:
+          operator: and
+          matcher: regexp
+          if:
+            event: [push, tag]
+            branch: [stage]
+        parameters:
+          captain_file: .captain.yml
+          edge_auth: false
+          run_apply: true
+          env: stage
+          version: "stage-${VELA_BUILD_COMMIT:0:7}"
+
+  deploy-prod:
+    needs: build
+    steps:
+      # Deploy prod
+      - name: techhealth-be-deploy-prod
+        image: docker-utilities.binrepo.somedomain.in/captain:1-stable
+        ruleset:
+          operator: and
+          matcher: regexp
+          if:
+            event: [push, tag]
+            branch: [main]
+        parameters:
+          captain_file: .captain.yml
+          edge_auth: false
+          run_apply: true
+          env: prod
+          version: "prod-${VELA_BUILD_COMMIT:0:7}"
+
+secrets:
+  - name: ARTIFACTORY_USERNAME
+    key: EMEA-Tech-Services/TechDebt3.0-BE/ARTIFACTORY_USERNAME
+    engine: native
+    type: repo
+  - name: ARTIFACTORY_PASSWORD
+    key: EMEA-Tech-Services/TechDebt3.0-BE/ARTIFACTORY_PASSWORD
+    engine: native
+    type: repo
+  - name: veracode_user
+    key: EMEA-Tech-Services/TechDebt3.0-BE/veracode_user
+    engine: native
+    type: repo
+  - name: veracode_pass
+    key: EMEA-Tech-Services/TechDebt3.0-BE/veracode_pass
+    engine: native
+    type: repo

@@ -1,0 +1,92 @@
+id;description;categoryId;isActive;techStandardDescription
+1;EoL HW & EoL OS;1;TRUE;TestTechStandard
+2;Stale VM Server identification & retirement;1;TRUE;TestTechStandard
+3;OS Version and Patching;1;TRUE;TestTechStandard
+4;Critical Servers High Availability;2;TRUE;TestTechStandard
+5;NW Redundancy for Servers;2;TRUE;TestTechStandard
+6;ESXi Cluster availability;2;TRUE;TestTechStandard
+7;Virtualization Percentage;3;TRUE;TestTechStandard
+8;Standard Backup Solution;4;TRUE;TestTechStandard
+9;Backup Device Warranty / Maintenance contract;4;TRUE;TestTechStandard
+11;Available Storage Capacity;5;TRUE;TestTechStandard
+12;Storage Health;5;TRUE;TestTechStandard
+13;DB Upgrade Status;6;TRUE;TestTechStandard
+14;Unsupported DB on Site;6;TRUE;TestTechStandard
+15;DB LC Status;6;TRUE;TestTechStandard
+16;Windows, walls, ceiling, floor;7;TRUE;TestTechStandard
+17;Doors Size;7;TRUE;TestTechStandard
+18;Racks Accessibility;7;TRUE;TestTechStandard
+19;Cable Trays;7;TRUE;TestTechStandard
+20;Spare Parts Availability;7;TRUE;TestTechStandard
+21;Cleanliness and Tidiness;7;TRUE;TestTechStandard
+22;Fire Rating;8;TRUE;TestTechStandard
+23;Fire Detection;8;TRUE;TestTechStandard
+24;Fire Suppression;8;TRUE;TestTechStandard
+25;Computer Room Access;9;TRUE;TestTechStandard
+26;Camera Surveillance;9;TRUE;TestTechStandard
+27;Logging (electronic, visitor logs);9;TRUE;TestTechStandard
+28;Cooling Concept;10;TRUE;TestTechStandard
+29;Cooling Redundancy;10;TRUE;TestTechStandard
+30;Maintenance, Service & Age (Cooling);10;TRUE;TestTechStandard
+31;Capacity Sizing;10;TRUE;TestTechStandard
+32;CDP dedicated to IT-room;11;TRUE;TestTechStandard
+33;In rack power distribution (RPDU's);11;TRUE;TestTechStandard
+34;UPS Concept;12;TRUE;TestTechStandard
+35;UPS Redundancy;12;TRUE;TestTechStandard
+36;External bypass;12;TRUE;TestTechStandard
+37;Maintenance, Service & Age (UPS);12;TRUE;TestTechStandard
+38;Capacity Sizing and Runtime;12;TRUE;TestTechStandard
+39;Rack Model & Size;13;TRUE;TestTechStandard
+40;Rack Security;13;TRUE;TestTechStandard
+41;Implementation of Accessories;13;TRUE;TestTechStandard
+42;Cable Management;13;TRUE;TestTechStandard
+43;WAN Device Compliance (HW / OS / Capacity);14;TRUE;TestTechStandard
+44;WAN Capacity;14;TRUE;TestTechStandard
+45;WAN Infra Standards Compliance (Standard Design and Configuration);14;TRUE;TestTechStandard
+46;Admin LAN Device Compliance (HW/OS/Capacity);15;TRUE;TestTechStandard
+47;Admin LAN Infra Standards Compliance (Standard Design and Configuration);15;TRUE;TestTechStandard
+49;Wi-Fi Device Compliance (HW/OS/Capacity);16;TRUE;TestTechStandard
+50;Wi-Fi Infra Design Standards Compliance (Standard Design and Configuration);16;TRUE;TestTechStandard
+51;Plant Network Device Compliance (HW/OS/Capacity);17;TRUE;TestTechStandard
+52;Plant Network Infra Standards Compliance (Standard Design and Configuration);17;TRUE;TestTechStandard
+53;Voice/IPT Device Compliance (HW & OS);18;TRUE;TestTechStandard
+54;Voice/IPT Infra Standards Compliance;18;TRUE;TestTechStandard
+80;Dedicated to ITC Equipment;27;TRUE;TestTechStandard
+81;Room Cleanliness;28;TRUE;TestTechStandard
+82;No Inappropriate Materials Stored;29;TRUE;TestTechStandard
+83;No External Walls, Windows or Doors;30;TRUE;TestTechStandard
+84;External Access Secured/Monitored;30;TRUE;TestTechStandard
+85;Fully Demising Walls;30;TRUE;TestTechStandard
+86;Internal Door is Solid (Wood or Metal);30;TRUE;TestTechStandard
+87;Internal Door Secured/Access Controlled;30;TRUE;TestTechStandard
+88;Internal Door is Monitored by BMS;30;TRUE;TestTechStandard
+89;Access is Logged;30;TRUE;TestTechStandard
+90;Walls are Fire Rated;31;TRUE;TestTechStandard
+91;Doors are Fire Rated;31;TRUE;TestTechStandard
+92;Appropriate Overhead Lighting;32;TRUE;TestTechStandard
+93;Fire/Smoke Detection Sensors;31;TRUE;TestTechStandard
+94;Fire Extinguishers;31;TRUE;TestTechStandard
+95;Fire Suppression System;31;TRUE;TestTechStandard
+96;No Trip or Fall Hazards;32;TRUE;TestTechStandard
+97;Electrical Standards Met;31;TRUE;TestTechStandard
+98;Power 24/7x365;33;TRUE;TestTechStandard
+99;Power Provided Through UPS;33;TRUE;TestTechStandard
+100;UPS is in Working Order;33;TRUE;TestTechStandard
+101;UPS Age;33;TRUE;TestTechStandard
+102;UPS Used Only for IT Equipment;33;TRUE;TestTechStandard
+103;UPS Connected to Backup Generator.;34;TRUE;TestTechStandard
+104;Generator is Maintained Regularly;33;TRUE;TestTechStandard
+105;IT Equipment in Server Rack Enclosures;35;TRUE;TestTechStandard
+106;Room and Racks Power is Redundant;34;TRUE;TestTechStandard
+107;Standard RPDUs Present;33;TRUE;TestTechStandard
+108;Network and Power Cables Management;33;TRUE;TestTechStandard
+109;Climate Control System;38;TRUE;TestTechStandard
+110;Room Temperature;38;TRUE;TestTechStandard
+111;Room Relative Humidity;38;TRUE;TestTechStandard
+112;No Evidence of Water Leaks;36;TRUE;TestTechStandard
+113;No Overhead Water Piping;36;TRUE;TestTechStandard
+114;No Dust or Dirt Present;37;TRUE;TestTechStandard
+115;No Evidence of Pest or Vermin;38;TRUE;TestTechStandard
+129;Local DNS / DHCP Infrastructure;42;TRUE;TestTechStandard
+130;Storage HA;5;TRUE;TestTechStandard
+131;DB HA/Replication;6;TRUE;TestTechStandard

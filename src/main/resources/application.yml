@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE}
+  application:
+    name: techDebtRestApi
+
+
+server:
+  port: 8010
+
+springdoc:
+  api-docs:
+    path: /api-docs
+

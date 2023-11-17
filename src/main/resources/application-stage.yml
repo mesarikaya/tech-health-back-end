@@ -1,0 +1,96 @@
+logging:
+  level:
+    ROOT: INFO
+    org.hibernate.SQL: INFO
+    com.cargill.techdebt: DEBUG
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-exclude: static/**
+    livereload:
+      enabled: false # we use Webpack dev server + BrowserSync for livereload
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      poolName: Hikari
+      auto-commit: false
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    properties:
+      hibernate.jdbc.time_zone: UTC
+      hibernate.id.new_generator_mappings: true
+      hibernate.connection.provider_disables_autocommit: true
+      hibernate.generate_statistics: false
+      # modify batch size as necessary
+      hibernate.jdbc.batch_size: 25
+      hibernate.order_inserts: true
+      hibernate.order_updates: true
+      hibernate.query.fail_on_pagination_over_collection_fetch: true
+      hibernate.query.in_clause_parameter_padding: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: none
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
+        profile:
+          tenant-id: 57368c21-b8cf-42cf-bd0b-43ecd4bc62ae
+        credential:
+          client-id: 29c27ddc-8f39-4bd3-88f6-225b7c377206
+        app-id-uri: api://29c27ddc-8f39-4bd3-88f6-225b7c377206
+    #flyway:
+    #baseline-on-migrate: true
+
+cors:
+  allowed_origins: >
+    https://techhealth.stage.cglcloud.in,
+    https://techhealth.cglcloud.com,
+    http://localhost:3000,
+    https://api-stage.stage.cglcloud.in
+
+location_data:
+  url: https://api.cglcloud.com/api/ctldna/location-service/v1/location
+
+wiretap:
+  enabled: true
+
+tcp:
+  connectionTimeOutMillis: 50000
+  maxConnections: 1000
+  maxIdleTime: 60
+  pendingAcquireTimeout: 60
+  maxLifeTime: 60
+
+test_data:
+  region: "region.csv"
+  country: "country.csv"
+  enterprise: "enterprise.csv"
+  businessUnitGroup: "businessUnitGroup.csv"
+  businessUnit: "businessUnit.csv"
+  costRange: "costRange.csv"
+  techDomain: "techDomain.csv"
+  recommendationStatus: "recommendationStatus.csv"
+  investmentCriticality: "investmentCriticality.csv"
+  techArea: "techArea.csv"
+  site: "site.csv"
+  category: "category.csv"
+  assessmentCriteria: "assessmentCriteria.csv"
+  costToFix: "costToFix.csv"
+  assessmentResult: "assessmentResult.csv"
+  attachments: "attachments.csv"

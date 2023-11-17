@@ -1,0 +1,29 @@
+kind: kubernetes
+app: techhealthapi
+type: web
+team: globalittechdebt
+docker_image: techhealth_be
+internal: true
+replicas: 1
+container_port: 8010
+healthcheck:
+  path: /health
+dns:
+  zone: cglcloud
+  name: techhealthapi
+database:
+  type: postgres
+  flyway_path: src/main/resources/db/migration
+headers:
+  csp:
+    dev: # dev, stage, prod, or default
+      img-src:
+        self: true
+        data: true
+envvars:
+  dev:
+    SPRING_PROFILES_ACTIVE: dev
+  stage:
+    SPRING_PROFILES_ACTIVE: stage
+  prod:
+    SPRING_PROFILES_ACTIVE: prod

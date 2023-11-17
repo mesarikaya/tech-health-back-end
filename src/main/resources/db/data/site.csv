@@ -1,0 +1,791 @@
+id;name;mdmSiteId;mdmSiteName;comment;isActive;region;enterprise;businessGroup;reportingUnit;address;country;countryCode;city;state;latitude;longitude;investmentCriticalityId
+1;Malchin;990029;Malchin;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;GERMANY;DE;Malchin;;53.74323;53.74323;1
+2;Balikesir;27040;Balikesir;;TRUE;EMEA;FIBI;Cargill Foods META;Cargill Foods META;;TURKEY;TR;Balikesir;;39.630447;39.630447;4
+3;Barby;4344;Barby;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;GERMANY;DE;Barby;;51.985016;51.985016;2
+4;Krefeld;5386;Krefeld;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;GERMANY;DE;Krefeld;;51.338395;51.338395;4
+5;Castelmassa;1690016;Castelmassa;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;ITALY;IT;Castelmassa;;45.021491;45.021491;2
+6;Martorell;11727;Martorell;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;SPAIN;ES;Martorell;;41.48552;41.48552;2
+7;Manchester;642050;Manchester;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;UNITED KINGDOM;GB;Manchester;;53.477497;53.477497;2
+8;Zaandam CTS;8458;Zaandam CTS;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;NETHERLANDS;NL;Zaandam CTS;;52.425569;52.425569;4
+9;Hamburg CSST;770070;Hamburg CSST;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;GERMANY;DE;Hamburg CSST;;53.529905;53.529905;1
+10;Wroclaw;660017;Wroclaw;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;POLAND;PL;Wroclaw;;51.1272093;51.1272093;2
+11;Dilovasi;1210054;Dilovasi;;TRUE;EMEA;FIBI;Cargill Foods META;Cargill Foods META;;TURKEY;TR;Dilovasi;;40.472341;40.472341;4
+12;Milazzo;990036;Milazzo;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;ITALY;IT;Milazzo;;38.1791097;38.1791097;1
+13;Haubourdin;990031;Haubourdin;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;FRANCE;FR;Haubourdin;;50.606571;50.606571;4
+14;Redon;662236;Redon;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;FRANCE;FR;Redon;;47.6529525;47.6529525;4
+15;Baupte;12535;Baupte;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;FRANCE;FR;Baupte;;49.305497;49.305497;2
+16;Efremov;1590156;Efremov;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;RUSSIAN FEDERATION;RU;Efremov;;53.108131;53.108131;4
+17;Orhangazi;1210055;Orhangazi;;TRUE;EMEA;FIBI;Cargill Foods META;Cargill Foods META;;TURKEY;TR;Orhangazi;;40.421958;40.421958;4
+18;Floro;662520;Floro;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Floro;;61.58643;61.58643;4
+19;Bergneset;662442;Bergneset;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Bergneset;;69.23782;69.23782;4
+20;Dirdal;1370560;Dirdal;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Dirdal;;58.83689;58.83689;4
+21;Westfield;7656;Westfield;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;UNITED KINGDOM;GB;Westfield;;55.93163;55.93163;4
+22;Trondheim;662366;Trondheim;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Trondheim;;63.42432;63.42432;4
+23;Sandnes;26221;Sandnes;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Sandnes;;58.85401;58.85401;4
+24;Oslo;8201;Oslo;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Oslo;;59.92808;59.92808;4
+25;Halsa;26709;Halsa;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Halsa;;66.74455;66.74455;4
+26;Mouscron;662110;Mouscron;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;BELGIUM;BE;Mouscron;;50.7434663;50.7434663;4
+27;Bergen;6812;Bergen;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Bergen;;60.3995;60.3995;4
+28;Amman;642240;Amman;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;JORDAN;JO;Amman;;31.951617;31.951617;4
+29;Crevin;455477;Crevin;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;FRANCE;FR;Crevin;;47.9385;47.9385;4
+30;Fiorenzuola;640654;Fiorenzuola;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;ITALY;IT;Fiorenzuola;;44.92507;44.92507;4
+31;Geneva;22754;Geneva;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;SWITZERLAND;CH;Geneva;;46.189679;46.189679;4
+32;Istanbul;26660;Istanbul;;TRUE;EMEA;FIBI;Cargill Foods META;Cargill Foods META;;TURKEY;TR;Istanbul;;40.8747097;40.8747097;4
+33;Kalisz;660238;Kalisz;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Kalisz;;51.73992;51.73992;4
+34;Krzemieniewo;1330388;Krzemieniewo;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Krzemieniewo;;51.873444;51.873444;4
+35;Mechelen;990070;Mechelen;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;BELGIUM;BE;Mechelen;;51.002771;51.002771;4
+36;Rotterdam;640142;Rotterdam;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;NETHERLANDS;NL;Rotterdam;;51.902401;51.902401;4
+37;Schiphol;770118;Schiphol;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;NETHERLANDS;NL;Schiphol;;52.30412;52.30412;4
+38;Sofia Cargill Tower;1330380;Sofia Cargill Tower;;TRUE;EMEA;CORP;Miscellaneous;CBS;;BULGARIA;BG;Sofia Cargill Tower;;42.66411;42.66411;4
+39;Sofia Infinity Tower;11158;Sofia Infinity Tower;;FALSE;EMEA;CORP;Miscellaneous;Shared Offices;;BULGARIA;BG;Sofia Infinity Tower;;42.664166;42.664166;4
+40;Tregueux;662358;Tregueux;;FALSE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;FRANCE;FR;Tregueux;;48.481204;48.481204;4
+41;Varna;641982;Varna;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;Ocean Transportation;;BULGARIA;BG;Varna;;43.206889;43.206889;3
+42;Weybridge;100161;Weybridge;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;UNITED KINGDOM;GB;Weybridge;;51.3528;51.3528;4
+43;Abidjan Vridi;28928;Abidjan Vridi;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate West Africa;;IVORY COAST;CI;Abidjan Vridi;;5.336389;5.336389;4
+44;Amsterdam Multiseed;4695;Amsterdam Multiseed;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;NETHERLANDS;NL;Amsterdam Multiseed;;52.40957;52.40957;4
+45;Bergen op Zoom;6812;Bergen op Zoom;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;NETHERLANDS;NL;Bergen op Zoom;;51.508768;51.508768;2
+46;Botlek;24726;Botlek;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;NETHERLANDS;NL;Botlek;;51.880217;51.880217;4
+47;Bucharest;1850473;Bucharest;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;ROMANIA;RO;Bucharest;;44.482958;44.482958;4
+48;Budapest;660183;Budapest;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;HUNGARY;HU;Budapest;;47.4777;47.4777;4
+49;Izegem;642521;Izegem;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;BELGIUM;BE;Izegem;;50.9214843;50.9214843;4
+50;Kiev;1590165;Kiev;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UKRAINE;UA;Kiev;;50.4333;50.4333;4
+51;Swinderby;100161;Swinderby;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;UNITED KINGDOM;GB;Swinderby;;53.1553;53.1553;4
+52;Sas van Gent CSST;990033;Sas van Gent CSST;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;NETHERLANDS;NL;Sas van Gent CSST;;51.234558;51.234558;4
+53;Moscow;1770411;Moscow;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;RUSSIAN FEDERATION;RU;Moscow;;55.7499;55.7499;4
+54;Sant Cugat;120107;Sant Cugat;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;SPAIN;ES;Sant Cugat;;41.491769;41.491769;4
+55;Reus;890034;Reus;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;SPAIN;ES;Reus;;41.1623114;41.1623114;4
+56;Alexandria NSC;11237;Alexandria NSC;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;EGYPT;EG;Alexandria NSC;;31.135218;31.135218;4
+57;Antwerp GEOS;25879;Antwerp GEOS;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;BELGIUM;BE;Antwerp GEOS;;51.283237;51.283237;4
+58;Antwerp CCC;25879;Antwerp CCC;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;BELGIUM;BE;Antwerp CCC;;51.207793;51.207793;3
+59;Barcelona;8240;Barcelona;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;SPAIN;ES;Barcelona;;41.33959;41.33959;4
+60;Berlin Lichtenrade;8085;Berlin Lichtenrade;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;GERMANY;DE;Berlin Lichtenrade;;52.40143;52.40143;4
+61;Berlin Reinickendorf;8085;Berlin Reinickendorf;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;GERMANY;DE;Berlin Reinickendorf;;52.5779;52.5779;4
+62;Liverpool Brocklebank;770059;Liverpool Brocklebank;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;UNITED KINGDOM;GB;Liverpool Brocklebank;;53.4412;53.4412;4
+63;Chateau Gontier (Saint Fort);1370519;Chateau Gontier (Saint Fort);;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;FRANCE;FR;Chateau Gontier (Saint Fort);;47.81903;47.81903;4
+64;Dalton (Thirsk);100539;Dalton (Thirsk);;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED KINGDOM;GB;Dalton (Thirsk);;54.172689;54.172689;4
+65;Deventer;1370554;Deventer;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;NETHERLANDS;NL;Deventer;;52.243217;52.243217;4
+66;Frankfurt;1370499;Frankfurt;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;GERMANY;DE;Frankfurt;;50.09416;50.09416;4
+67;Kakhovka;25200;Kakhovka;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;UKRAINE;UA;Kakhovka;;46.791885;46.791885;4
+68;Siedlce-Strzala;1330387;Siedlce-Strzala;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Siedlce-Strzala;;52.189332;52.189332;4
+69;Azov;560584;Azov;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;RUSSIAN FEDERATION;RU;Azov;;47.065972;47.065972;4
+70;Melfi;662097;Melfi;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;ITALY;IT;Melfi;;40.553931;40.553931;4
+71;San Pedro;22422;San Pedro;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate West Africa;;IVORY COAST;CI;San Pedro;;4.7317;4.7317;4
+72;Salzgitter;11365;Salzgitter;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;GERMANY;DE;Salzgitter;;52.193009;52.193009;4
+73;Zaragoza CASC;641992;Zaragoza CASC;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;SPAIN;ES;Zaragoza CASC;;41.6393587;41.6393587;4
+74;Sevilla;640734;Sevilla;;FALSE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;SPAIN;ES;Sevilla;;37.4277782;37.4277782;4
+75;Lviv;1330379;Lviv;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UKRAINE;UA;Lviv;;49.908285;49.908285;4
+77;Karcag;1330413;Karcag;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;HUNGARY;HU;Karcag;;47.3459491;47.3459491;4
+78;Klin;1770090;Klin;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;RUSSIAN FEDERATION;RU;Klin;;56.3261626;56.3261626;4
+79;Mequinenza;1370503;Mequinenza;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;SPAIN;ES;Mequinenza;;41.4096459;41.4096459;4
+80;Saint Nazaire;770065;Saint Nazaire;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;FRANCE;FR;Saint Nazaire;;47.280823;47.280823;4
+81;Duesseldorf;1650313;Duesseldorf;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;GERMANY;DE;Duesseldorf;;51.2734477;51.2734477;4
+82;Hull;9199;Hull;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;UNITED KINGDOM;GB;Hull;;53.762998;53.762998;4
+83;Kiszkowo;10369;Kiszkowo;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;POLAND;PL;Kiszkowo;;52.593793;52.593793;4
+84;Klein Schierstedt;13490;Klein Schierstedt;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;GERMANY;DE;Klein Schierstedt;;51.7554224;51.7554224;3
+85;Liverpool CCC (Speke);1370529;Liverpool CCC (Speke);;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;UNITED KINGDOM;GB;Liverpool CCC (Speke);;53.3454754;53.3454754;3
+86;Makow Mazowiecki;10251;Makow Mazowiecki;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Makow Mazowiecki;;52.873371;52.873371;4
+87;Kaposvar CFN;1330414;Kaposvar CFN;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;HUNGARY;HU;Kaposvar CFN;;46.3657674;46.3657674;4
+88;Balliol;662417;Balliol;;TRUE;EMEA;CPS;Cargill Protein – Asia & Europe;Cargill Protein Europe;;UNITED KINGDOM;GB;Balliol;;52.625763;52.625763;4
+89;Orleans;1050003;Orleans;;TRUE;EMEA;CPS;Cargill Protein – Asia & Europe;Cargill Protein Europe;;FRANCE;FR;Orleans;;47.814567;47.814567;4
+90;Nowy Sacz;1370573;Nowy Sacz;;TRUE;EMEA;CPS;Cargill Protein – Asia & Europe;Cargill Protein Europe;;POLAND;PL;Nowy Sacz;;49.5985132;49.5985132;3
+91;Nekla (Pasz);1950385;Nekla (Pasz);;TRUE;EMEA;CPS;Cargill Protein – Asia & Europe;Cargill Protein Europe;;POLAND;PL;Nekla (Pasz);;52.3580414;52.3580414;4
+92;Slupca;1370579;Slupca;;TRUE;EMEA;CPS;Cargill Protein – Asia & Europe;Cargill Protein Europe;;POLAND;PL;Slupca;;52.293833;52.293833;3
+93;Wormer;662420;Wormer;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;NETHERLANDS;NL;Wormer;;52.4970996;52.4970996;2
+94;Vilvoorde;26066;Vilvoorde;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;BELGIUM;BE;Vilvoorde;;50.9212857;50.9212857;4
+95;Krasnodar;460136;Krasnodar;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;RUSSIAN FEDERATION;RU;Krasnodar;;45.0516024;45.0516024;4
+96;Montoir de Bretagne;2159;Montoir de Bretagne;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;FRANCE;FR;Montoir de Bretagne;;47.3074053;47.3074053;4
+97;Seaforth;770073;Seaforth;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;UNITED KINGDOM;GB;Seaforth;;53.4513917;53.4513917;4
+98;Hamburg GEOS;5626;Hamburg GEOS;;TRUE;EMEA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;GERMANY;DE;Hamburg GEOS;;53.4672;53.4672;4
+99;Warsaw;24120;Warsaw;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;POLAND;PL;Warsaw;;52.1849175;52.1849175;4
+100;Rouen;1370509;Rouen;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;FRANCE;FR;Rouen;;49.4047771;49.4047771;3
+101;Gent;1590058;Gent;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;BELGIUM;BE;Gent;;51.1372147;51.1372147;4
+102;Spessa;662317;Spessa;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;ITALY;IT;Spessa;;45.1312616;45.1312616;4
+103;Riesa;1370493;Riesa;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;GERMANY;DE;Riesa;;51.3011224;51.3011224;4
+104;Willowton;11050;Willowton;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;SOUTH AFRICA;ZA;Willowton;;-29.582663;-29.582663;4
+105;Nakuru;29112;Nakuru;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;KENYA;KE;Nakuru;;-0.3404914;-0.3404914;4
+106;Mombasa;1770023;Mombasa;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;KENYA;KE;Mombasa;;4.0538931;4.0538931;4
+107;Novoanninskiy;1330477;Novoanninskiy;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;RUSSIAN FEDERATION;RU;Novoanninskiy;;50.5301836;50.5301836;4
+108;Johannesburg;480075;Johannesburg;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;SOUTH AFRICA;ZA;Johannesburg;;-25.9833847;-25.9833847;4
+109;Colmenar Viejo;14115;Colmenar Viejo;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;SPAIN;ES;Colmenar Viejo;;40.64079;40.64079;4
+110;Tema;13492;Tema;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate West Africa;;GHANA;GH;Tema;;5.690063;5.690063;4
+111;Krzepice;8455;Krzepice;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Krzepice;;50.96914;50.96914;4
+112;Tworog;662372;Tworog;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Tworog;;50.53177;50.53177;4
+113;Cherasco;642362;Cherasco;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;ITALY;IT;Cherasco;;44.651886;44.651886;4
+114;Rostov;1770179;Rostov;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;RUSSIAN FEDERATION;RU;Rostov;;47.326093;47.326093;4
+115;Worcester;1770334;Worcester;;TRUE;EMEA;CPS;Cargill Protein – Asia & Europe;Cargill Protein Europe;;UNITED KINGDOM;GB;Worcester;;52.158369;52.158369;4
+116;Zhornyska;1330379;Zhornyska;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UKRAINE;UA;Zhornyska;;49.9063889;49.9063889;4
+117;Worksop;10230;Worksop;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;UNITED KINGDOM;GB;Worksop;;53.298921;53.298921;4
+118;Velddriel;14125;Velddriel;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;NETHERLANDS;NL;Velddriel;;51.77704;51.77704;4
+119;Nantes;1770174;Nantes;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;FRANCE;FR;Nantes;;47.20894;47.20894;4
+120;Hamburg CCC;1370486;Hamburg CCC;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;GERMANY;DE;Hamburg CCC;;53.5754596803;53.5754596803;4
+121;York;13891;York;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;UNITED KINGDOM;GB;York;;53.9772319;53.9772319;4
+122;Udanin;22628;Udanin;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Udanin;;51.0970391;51.0970391;4
+123;Yffiniac;642181;Yffiniac;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;FRANCE;FR;Yffiniac;;48.4715699;48.4715699;4
+124;Milan;890377;Milan;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;ITALY;IT;Milan;;45.4416705;45.4416705;4
+125;Sierpc;5716;Sierpc;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Sierpc;;52.8434726;52.8434726;4
+126;Stavanger;29017;Stavanger;;TRUE;EMEA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;NORWAY;NO;Stavanger;;58.9327491;58.9327491;4
+127;Kalmthout;641838;Kalmthout;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;BELGIUM;BE;Kalmthout;;51.411636;51.411636;4
+128;Dobroszyce;641840;Dobroszyce;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;POLAND;PL;Dobroszyce;;51.266285;51.266285;4
+129;Paris;1850356;Paris;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;FRANCE;FR;Paris;;48.89873;48.89873;4
+130;Yopougon;11914;Yopougon;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate West Africa;;IVORY COAST;CI;Yopougon;;5.3659;5.3659;4
+131;Chelmno;23621;Chelmno;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Chelmno;;53.32444;53.32444;4
+132;Hendek;641727;Hendek;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;TURKEY;TR;Hendek;;40.76238;40.76238;4
+133;Liverpool Cotton;100227;Liverpool Cotton;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;UNITED KINGDOM;GB;Liverpool Cotton;;53.409019;53.409019;4
+134;London QVS;642578;London QVS;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;UNITED KINGDOM;GB;London QVS;;51.5142324;51.5142324;4
+135;Dubai;1330292;Dubai;;TRUE;EMEA;CORP;Miscellaneous;Shared Offices;;UNITED ARAB EMIRATES;AE;Dubai;;25.237796;25.237796;4
+136;Zaandam Aurora;27080;Zaandam Aurora;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;NETHERLANDS;NL;Zaandam Aurora;;52.464137;52.464137;4
+137;Zaandam Jonker;27080;Zaandam Jonker;;TRUE;EMEA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Europe;;NETHERLANDS;NL;Zaandam Jonker;;52.456755;52.456755;4
+138;Cairo;28976;Cairo;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;EGYPT;EG;Cairo;;30.0174481;30.0174481;4
+139;Nairobi;1710588;Nairobi;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;KENYA;KE;Nairobi;;-1.27157;-1.27157;4
+140;Soborg;29064;Soborg;;TRUE;EMEA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;DENMARK;DK;Soborg;;55.7369137;55.7369137;4
+141;Kaposvar CASC;100526;Kaposvar CASC;;TRUE;EMEA;CASC;Cargill Agricultural Supply Chain EMEA;CASC Europe;;HUNGARY;HU;Kaposvar CASC;;46.3581898;46.3581898;4
+142;Bangalore CBS 2;100725;Bangalore CBS 2;;TRUE;AP;CORP;Miscellaneous;CBS;;INDIA;IN;Bangalore CBS 2;;12.923363;12.923363;4
+143;Bangalore CBS-Cessna;100725;Bangalore CBS-Cessna;;TRUE;AP;CORP;Miscellaneous;CBS;;INDIA;IN;Bangalore CBS-Cessna;;12.9366259;12.9366259;4
+144;Gurgaon CBS;9156;Gurgaon CBS;;TRUE;AP;CORP;Miscellaneous;CBS;;INDIA;IN;Gurgaon CBS;;28.4976007;28.4976007;4
+145;Nanjing CBS;100705;Nanjing CBS;;TRUE;AP;CORP;Miscellaneous;CBS;;CHINA;CN;Nanjing CBS;;31.962393;31.962393;4
+146;Birchip (VIC);20947;Birchip (VIC);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Birchip (VIC);;-36.0010974;-36.0010974;4
+147;Vashi;1210096;Vashi;;TRUE;AP;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions India;;INDIA;IN;Vashi;;19.0825978;19.0825978;4
+148;Gurgaon Infocity;9156;Gurgaon Infocity;;TRUE;AP;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions India;;INDIA;IN;Gurgaon Infocity;;28.432414;28.432414;4
+149;Cikandi;28943;Cikandi;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Indonesia;;INDONESIA;ID;Cikandi;;-6.069647;-6.069647;4
+150;Gresik;642475;Gresik;;TRUE;AP;FIBI;Cocoa and Chocolate;Cocoa and Chocolate APAC;;INDONESIA;ID;Gresik;;-7.1209483;-7.1209483;4
+151;Palu;5628;Palu;;TRUE;AP;FIBI;Cocoa and Chocolate;Cocoa and Chocolate APAC;;INDONESIA;ID;Palu;;-0.75670969;-0.75670969;4
+152;Makassar;29306;Makassar;;TRUE;AP;FIBI;Cocoa and Chocolate;Cocoa and Chocolate APAC;;INDONESIA;ID;Makassar;;-5.09937828;-5.09937828;4
+153;Kaifeng;1590101;Kaifeng;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Kaifeng;;34.79845;34.79845;4
+154;Baotou;642267;Baotou;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Baotou;;40.61742;40.61742;4
+155;Bathinda;1350236;Bathinda;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDIA;IN;Bathinda;;30.1779387;30.1779387;4
+156;MakassarANH;29306;MakassarANH;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;MakassarANH;;-5.133333;-5.133333;4
+157;Gunung Putri;642067;Gunung Putri;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;Gunung Putri;;-6.4489216;-6.4489216;4
+158;Kraton;9337;Kraton;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;Kraton;;-7.621364;-7.621364;4
+159;Medan;362247;Medan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;Medan;;3.5435758;3.5435758;4
+160;Purwodadi;642074;Purwodadi;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;Purwodadi;;-7.025392;-7.025392;4
+161;Semarang;1350154;Semarang;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;Semarang;;-6.983701;-6.983701;4
+162;Surabaya;642069;Surabaya;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDONESIA;ID;Surabaya;;-7.269939;-7.269939;4
+163;Melaka;1590124;Melaka;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MALAYSIA;MY;Melaka;;2.256972;2.256972;4
+164;Penang;1770040;Penang;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MALAYSIA;MY;Penang;;5.360672;5.360672;4
+165;Sabah;3130;Sabah;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MALAYSIA;MY;Sabah;;5.9794225;5.9794225;4
+166;Westport-1;662405;Westport-1;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MALAYSIA;MY;Westport-1;;2.93768;2.93768;4
+167;Baliuag;642089;Baliuag;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;PHILIPPINES (THE);PH;Baliuag;;14.964791;14.964791;4
+168;Pyeongtaek;1370548;Pyeongtaek;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Pyeongtaek;;36.998578;36.998578;4
+169;Yongin;560956;Yongin;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Yongin;;37.07083;37.07083;4
+170;Phitsanuloke;662202;Phitsanuloke;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;THAILAND;TH;Phitsanuloke;;16.935807;16.935807;4
+171;Bien Hoa CFN;1350212;Bien Hoa CFN;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Bien Hoa CFN;;10.936798;10.936798;4
+172;Shenzhen;1350040;Shenzhen;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;Shenzhen;;22.5225;22.5225;4
+173;Noida Provimi;24156;Noida Provimi;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Noida Provimi;;28.536963;28.536963;4
+174;Doddaballapur;662513;Doddaballapur;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Doddaballapur;;13.0308;13.0308;4
+175;Howrah;560653;Howrah;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Howrah;;22.5851806;22.5851806;4
+176;Pune CPN;560697;Pune CPN;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Pune CPN;;13.276243;13.276243;4
+177;Bangalore Yelahanka CPN;100725;Bangalore Yelahanka CPN;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Bangalore Yelahanka CPN;;13.1073397;13.1073397;4
+178;Colombo;1370001;Colombo;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Colombo;;6.90749011;6.90749011;4
+179;Bien Hoa Quoc Lo CPN;1350212;Bien Hoa Quoc Lo CPN;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Bien Hoa Quoc Lo CPN;;10.954684;10.954684;4
+180;Korat - PrabPra ChokChai;662583;Korat - PrabPra ChokChai;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Korat - PrabPra ChokChai;;14.6813749;14.6813749;4
+181;Saraburi - Feedmill;10065;Saraburi - Feedmill;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Saraburi - Feedmill;;14.5843705;14.5843705;4
+182;Saraburi Main Plant;10065;Saraburi Main Plant;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Saraburi Main Plant;;14.6731542;14.6731542;4
+183;Saraburi - Contract office;10065;Saraburi - Contract office;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Saraburi - Contract office;;14.7764305;14.7764305;4
+184;Korat - Main Plant;662583;Korat - Main Plant;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Korat - Main Plant;;14.7110659;14.7110659;4
+185;Saraburi - Sports Club;10065;Saraburi - Sports Club;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Saraburi - Sports Club;;14.7276115;14.7276115;4
+186;Batangas;10628;Batangas;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;PHILIPPINES (THE);PH;Batangas;;14.0648195;14.0648195;4
+187;Mulpuri;1710264;Mulpuri;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;INDIA;IN;Mulpuri;;16.7567763;16.7567763;4
+188;Serang;642071;Serang;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;INDONESIA;ID;Serang;;-6.1769366;-6.1769366;4
+189;Davnagere;560788;Davnagere;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers-India;;INDIA;IN;Davnagere;;14.44988;14.44988;4
+190;Palembang;10072;Palembang;;TRUE;AP;CASC;Cargill Agriculture Supply Chain APAC;Cargill Tropical Palms;;INDONESIA;ID;Palembang;;-2.602628234;-2.602628234;4
+191;Singapore FIBI Lab;26095;Singapore FIBI Lab;;TRUE;AP;FIBI;Food Ingredients & Bio Industrial Asia Pacific;Food Ingredients & Bio Industrial Asia Pacific;;SINGAPORE;SG;Singapore FIBI Lab;;1.3024975;1.3024975;4
+192;Port Klang;1770040;Port Klang;;TRUE;AP;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions Malaysia;;MALAYSIA;MY;Port Klang;;2.9937526;2.9937526;4
+193;Westport-2;662405;Westport-2;;TRUE;AP;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions Malaysia;;MALAYSIA;MY;Westport-2;;3.000386;3.000386;4
+194;Sydney;560743;Sydney;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;AUSTRALIA;AU;Sydney;;-33.92119;-33.92119;4
+195;Melbourne (VIC);24784;Melbourne (VIC);;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;AUSTRALIA;AU;Melbourne (VIC);;-37.82257;-37.82257;4
+196;Shanghai DC;12130;Shanghai DC;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;CHINA;CN;Shanghai DC;;31.266219;31.266219;4
+197;Pune Office;9153;Pune Office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDIA;IN;Pune Office;;18.552762;18.552762;4
+198;Gurgaon Corporate office;9156;Gurgaon Corporate office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDIA;IN;Gurgaon Corporate office;;28.4921445;28.4921445;4
+199;PUNE Wipro;9168;PUNE Wipro;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDIA;IN;PUNE Wipro;;18.604703;18.604703;4
+200;CHENNAI - Corporate office;770036;CHENNAI - Corporate office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDIA;IN;CHENNAI - Corporate office;;12.90637;12.90637;4
+201;Pune TCS;9189;Pune TCS;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDIA;IN;Pune TCS;;18.581786;18.581786;4
+202;Jakarta Corporate Office;1350111;Jakarta Corporate Office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDONESIA;ID;Jakarta Corporate Office;;-6.203538;-6.203538;4
+203;Tokyo Office;1603;Tokyo Office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;JAPAN;JP;Tokyo Office;;35.678928;35.678928;4
+204;Tokyo CNF;1603;Tokyo CNF;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;JAPAN;JP;Tokyo CNF;;35.6885825;35.6885825;4
+205;Kaula Lumpur Corporate Office;1350061;Kaula Lumpur Corporate Office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;MALAYSIA;MY;Kaula Lumpur Corporate Office;;3.114216;3.114216;4
+206;Bundang;560963;Bundang;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;KOREA (THE REPUBLIC OF);KR;Bundang;;37.348469;37.348469;4
+207;Singapore DC;26095;Singapore DC;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;SINGAPORE;SG;Singapore DC;;1.335538;1.335538;4
+208;Singapore CNF;26095;Singapore CNF;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;SINGAPORE;SG;Singapore CNF;;1.29635591;1.29635591;4
+209;Singapore CapitaGreen;26095;Singapore CapitaGreen;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;SINGAPORE;SG;Singapore CapitaGreen;;1.2820612;1.2820612;4
+210;Singapore DR;26095;Singapore DR;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;SINGAPORE;SG;Singapore DR;;1.31939401;1.31939401;4
+211;Bangkok Corporate Office;10124;Bangkok Corporate Office;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;SINGAPORE;SG;Bangkok Corporate Office;;13.7361396;13.7361396;4
+212;Amurang;642243;Amurang;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Asia;;INDONESIA;ID;Amurang;;1.1908114;1.1908114;4
+213;Indore;28270;Indore;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Asia;;INDIA;IN;Indore;;22.717838;22.717838;4
+214;Karachi GOSC;1910048;Karachi GOSC;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Asia;;PAKISTAN;PK;Karachi GOSC;;24.864545;24.864545;4
+215;Kansai;1770241;Kansai;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Asia;;JAPAN;JP;Kansai;;34.69326;34.69326;4
+216;Karachi WTU;1910048;Karachi WTU;;TRUE;AP;CASC;Cargill Agriculture Supply Chain APAC;World Trading Unit;;PAKISTAN;PK;Karachi WTU;;24.8017007;24.8017007;4
+217;Maitland (SA);1590083;Maitland (SA);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Maitland (SA);;-34.383289;-34.383289;4
+218;Newcastle (NSW);21934;Newcastle (NSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Newcastle (NSW);;-32.882988;-32.882988;4
+219;Mallala (SA);13859;Mallala (SA);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Mallala (SA);;-34.4432416;-34.4432416;4
+220;Pinnaroo (SA);641600;Pinnaroo (SA);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Global Edible Oil Solutions Australia;;AUSTRALIA;AU;Pinnaroo (SA);;-35.25035;-35.25035;4
+221;Nyngan (NNSW);13842;Nyngan (NNSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Nyngan (NNSW);;-31.8955915;-31.8955915;4
+222;Charlton (VIC);1590088;Charlton (VIC);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Charlton (VIC);;-36.247503;-36.247503;4
+223;Dimboola (VIC);13855;Dimboola (VIC);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Dimboola (VIC);;-36.45671;-36.45671;4
+224;Echuca (VIC);24096;Echuca (VIC);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Echuca (VIC);;-36.127825;-36.127825;4
+225;The Gums (QLD);13865;The Gums (QLD);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;The Gums (QLD);;-27.341293;-27.341293;4
+226;Narromine (NNSW);1370464;Narromine (NNSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Narromine (NNSW);;-32.249417;-32.249417;4
+227;Walgett(NNSW);22412;Walgett(NNSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Walgett(NNSW);;148.423934;148.423934;4
+228;Oaklands (NSW);1030160;Oaklands (NSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Oaklands (NSW);;-35.55192;-35.55192;4
+229;West Wyalong (NSW);13848;West Wyalong (NSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;West Wyalong (NSW);;-33.899029;-33.899029;4
+230;Crystal Brook (SA);1590082;Crystal Brook (SA);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Crystal Brook (SA);;-33.3377545;-33.3377545;4
+231;Grong Grong (NSW);21346;Grong Grong (NSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Grong Grong (NSW);;-34.72936;-34.72936;4
+232;West Footscray (Vic);13280;West Footscray (Vic);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;West Footscray (Vic);;-37.8099726;-37.8099726;4
+233;Sea Lake (VIC);662287;Sea Lake (VIC);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Sea Lake (VIC);;-35.50417;-35.50417;4
+234;Narabari Grain Flow;14198;Narabari Grain Flow;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Narabari Grain Flow;;-30.354608;-30.354608;4
+235;Narabari Barn;14198;Narabari Barn;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Narabari Barn;;-30.336272;-30.336272;4
+236;Perth (WA);9118;Perth (WA);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Perth (WA);;-31.9474;-31.9474;4
+237;Summerhill (NSW);520222;Summerhill (NSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Summerhill (NSW);;-33.833904;-33.833904;4
+238;Bogan Gate (NSW);1370458;Bogan Gate (NSW);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Bogan Gate (NSW);;-33.12615949;-33.12615949;4
+239;Toowomba (QLD);22104;Toowomba (QLD);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Toowomba (QLD);;-27.561997;-27.561997;4
+240;Chennai TCS;770036;Chennai TCS;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;INDIA;IN;Chennai TCS;;12.8282917;12.8282917;4
+241;Kurkumbh;1590118;Kurkumbh;;TRUE;AP;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions India;;INDIA;IN;Kurkumbh;;18.40476706;18.40476706;4
+242;Rajahmundry;662230;Rajahmundry;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;INDIA;IN;Rajahmundry;;17.0778523;17.0778523;4
+243;Gempol;1763;Gempol;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Indonesia;;INDONESIA;ID;Gempol;;-7.5871315;-7.5871315;4
+244;Talwood (QLD);22273;Talwood (QLD);;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Australia;;AUSTRALIA;AU;Talwood (QLD);;-28.452502;-28.452502;4
+245;Beijing CICL;13360;Beijing CICL;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;CHINA;CN;Beijing CICL;;39.91117;39.91117;4
+246;Langfang;642080;Langfang;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Langfang;;39.512527;39.512527;4
+247;Beijing CIFS;13360;Beijing CIFS;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers Europe;;CHINA;CN;Beijing CIFS;;40.1618654;40.1618654;4
+248;Songyuan - Bio Chemical;480057;Songyuan - Bio Chemical;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers China;;CHINA;CN;Songyuan - Bio Chemical;;31.2239935;31.2239935;4
+249;ChongQing;1350186;ChongQing;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;ChongQing;;29.40605887;29.40605887;4
+250;Changsa;13349;Changsa;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Changsa;;28.216018;28.216018;4
+251;Shanghai;12130;Shanghai;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;CHINA;CN;Shanghai;;31.2149541;31.2149541;4
+252;Fushun;642081;Fushun;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Fushun;;41.78616;41.78616;4
+253;Yangjiang Feed;11711;Yangjiang Feed;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Yangjiang Feed;;21.759;21.759;4
+254;Foshan;642083;Foshan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;Foshan;;22.98628;22.98628;4
+255;Foshan Metal;11697;Foshan Metal;;TRUE;AP;TRM;Cargill Metals & Shipping;Metals;;CHINA;CN;Foshan Metal;;22.95922064;22.95922064;4
+256;Yangjiang;11711;Yangjiang;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain and Oilseed Supply Chain Greater China Korea;;CHINA;CN;Yangjiang;;21.72526696;21.72526696;4
+257;Dongguan;11680;Dongguan;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain and Oilseed Supply Chain Greater China Korea;;CHINA;CN;Dongguan;;23.0315837;23.0315837;4
+258;Hefei;1950248;Hefei;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Hefei;;32.19339291;32.19339291;4
+259;Harbin;1950537;Harbin;;FALSE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHILE;CL;Harbin;;45.62750454;45.62750454;4
+260;Nantong;10752;Nantong;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain and Oilseed Supply Chain Greater China Korea;;CHINA;CN;Nantong;;31.97787;31.97787;4
+261;Pinghussa;10492;Pinghussa;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers China;;CHINA;CN;Pinghussa;;30.14861842;30.14861842;4
+262;Jiaxing;1950183;Jiaxing;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Jiaxing;;30.8201387;30.8201387;4
+263;Kunming;642549;Kunming;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Kunming;;25.338631;25.338631;4
+264;Chuzhou;1950134;Chuzhou;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Animal Protein China;;CHINA;CN;Chuzhou;;32.451801;32.451801;4
+265;Poliplant;1350111;Poliplant;;TRUE;AP;CASC;Cargill Agriculture Supply Chain APAC;Cargill Tropical Palms;;INDONESIA;ID;Poliplant;;-2.3145527;-2.3145527;4
+266;Harapan;661958;Harapan;;TRUE;AP;CASC;Cargill Agriculture Supply Chain APAC;Cargill Tropical Palms;;INDONESIA;ID;Harapan;;-2.459196;-2.459196;4
+267;Boyolali;8333;Boyolali;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;INDONESIA;ID;Boyolali;;-7.5329902;-7.5329902;4
+268;Nanning -Ningwu Rd;1590097;Nanning -Ningwu Rd;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Nanning -Ningwu Rd;;22.817236;22.817236;4
+269;Shaanxi;22161;Shaanxi;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Shaanxi;;34.2752056;34.2752056;4
+270;Changji;1950235;Changji;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Changji;;44.014252;44.014252;4
+271;Hanchuan;1590103;Hanchuan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Hanchuan;;30.667648;30.667648;4
+272;Taian;120194;Taian;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Taian;;36.6186138;36.6186138;4
+273;Yantai;14169;Yantai;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Yantai;;37.553502;37.553502;4
+274;Zhengzhou;642194;Zhengzhou;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Zhengzhou;;34.8116453;34.8116453;4
+275;Zhangzhou - Hongshan Rd;641624;Zhangzhou - Hongshan Rd;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CHINA;CN;Zhangzhou - Hongshan Rd;;24.317583;24.317583;4
+276;Nanning - Guokai Rd;1590097;Nanning - Guokai Rd;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;Nanning - Guokai Rd;;22.749868;22.749868;4
+277;Tianjin - Houshing;100124;Tianjin - Houshing;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;Tianjin - Houshing;;39.526023;39.526023;4
+278;Jining;642087;Jining;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;Jining;;35.350384;35.350384;4
+279;Yichun;1950191;Yichun;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;CHINA;CN;Yichun;;27.611412;27.611412;4
+280;Zhengjiang;27314;Zhengjiang;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;CHINA;CN;Zhengjiang;;32.188751;32.188751;4
+281;Tianjin - Huashan;100124;Tianjin - Huashan;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers China;;CHINA;CN;Tianjin - Huashan;;39.083549;39.083549;4
+282;Luohe;1950303;Luohe;;TRUE;AP;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers China;;CHINA;CN;Luohe;;33.58620172;33.58620172;4
+283;Shanghai R&D;9210;Shanghai R&D;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;CHINA;CN;Shanghai R&D;;31.23037;31.23037;4
+284;Shanghai-TCS;12130;Shanghai-TCS;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;CHINA;CN;Shanghai-TCS;;31.2107078;31.2107078;4
+285;Cangzhou/Hebei;100176;Cangzhou/Hebei;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain and Oilseed Supply Chain Greater China Korea;;CHINA;CN;Cangzhou/Hebei;;38.371391;38.371391;4
+286;Sonipat;13881;Sonipat;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;INDIA;IN;Sonipat;;28.520892;28.520892;4
+287;Kutch;27920;Kutch;;TRUE;AP;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions India;;INDIA;IN;Kutch;;23.21654801;23.21654801;4
+288;Doddaballapura;662513;Doddaballapura;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;INDIA;IN;Doddaballapura;;13.251478;13.251478;4
+289;Villasis;642090;Villasis;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;PHILIPPINES (THE);PH;Villasis;;16.13345032;16.13345032;4
+290;Bulacan;12277;Bulacan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;PHILIPPINES (THE);PH;Bulacan;;14.84094751;14.84094751;4
+291;Pulilan;642091;Pulilan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;PHILIPPINES (THE);PH;Pulilan;;14.9063668;14.9063668;4
+292;Villanueva;642092;Villanueva;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;PHILIPPINES (THE);PH;Villanueva;;8.579017501;8.579017501;4
+293;General Santos;10563;General Santos;;TRUE;AP;CASC;Grain & Oilseed Supply Chain APAC;Grain & Oilseed Supply Chain Asia;;PHILIPPINES (THE);PH;General Santos;;6.11992249;6.11992249;4
+294;Taguig;362282;Taguig;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;PHILIPPINES (THE);PH;Taguig;;14.55351695;14.55351695;4
+296;Manila;25745;Manila;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;PHILIPPINES (THE);PH;Manila;;14.55598844;14.55598844;4
+297;Cheonan;25270;Cheonan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Cheonan;;36.91144135;36.91144135;4
+298;Gwangju;2973;Gwangju;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Gwangju;;35.20211007;35.20211007;4
+299;Jangheung;560962;Jangheung;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Jangheung;;34.69758691;34.69758691;4
+300;Chilgok;13351;Chilgok;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Chilgok;;36.02233775;36.02233775;4
+301;Kimhae;642540;Kimhae;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Kimhae;;35.31665649;35.31665649;4
+302;Wonju;460053;Wonju;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Wonju;;37.4504754;37.4504754;4
+303;Jeongeup;560954;Jeongeup;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Jeongeup;;35.59802373;35.59802373;4
+304;Kunsan;642550;Kunsan;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Kunsan;;35.97112434;35.97112434;4
+305;Pyeongchang;1370548;Pyeongchang;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Pyeongchang;;37.0213318;37.0213318;4
+306;Samsung;13421;Samsung;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Samsung;;37.50718972;37.50718972;4
+307;hanam;8465;hanam;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;hanam;;37.5194546;37.5194546;4
+308;Pocheon;560957;Pocheon;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Pocheon;;37.849183784;37.849183784;4
+309;Jeju;13353;Jeju;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Jeju;;33.42355238;33.42355238;4
+310;Daegu;14152;Daegu;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Daegu;;35.849671521;35.849671521;4
+311;Hongseong;560959;Hongseong;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;KOREA (THE REPUBLIC OF);KR;Hongseong;;36.60233237;36.60233237;4
+312;Da-Tu;21180;Da-Tu;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;TAIWAN (PROVINCE OF CHINA);TW;Da-Tu;;24.1673803;24.1673803;4
+313;Taipei;12702;Taipei;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;TAIWAN (PROVINCE OF CHINA);TW;Taipei;;25.04242318;25.04242318;4
+314;Chachoengsao;642354;Chachoengsao;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;THAILAND;TH;Chachoengsao;;13.80257754;13.80257754;4
+315;Nakhon Pathom;13923;Nakhon Pathom;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;THAILAND;TH;Nakhon Pathom;;13.81358619;13.81358619;4
+316;Prachinburi;641711;Prachinburi;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;THAILAND;TH;Prachinburi;;13.9231799;13.9231799;4
+317;Nakhon Ratchasima 5;13923;Nakhon Ratchasima 5;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;THAILAND;TH;Nakhon Ratchasima 5;;14.91464196;14.91464196;4
+318;petchaburi;9009;petchaburi;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;THAILAND;TH;petchaburi;;12.838394543;12.838394543;4
+319;Lopburi - 216 Moo;26994;Lopburi - 216 Moo;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Lopburi - 216 Moo;;15.071044197;15.071044197;4
+320;Lopburi - 75/1-2-3 Moo;26994;Lopburi - 75/1-2-3 Moo;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Lopburi - 75/1-2-3 Moo;;14.82505;14.82505;4
+321;Lopburi - 372 Moo;26994;Lopburi - 372 Moo;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Lopburi - 372 Moo;;14.83541739;14.83541739;4
+322;Korat - Hatchery;662583;Korat - Hatchery;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Korat - Hatchery;;14.97285089;14.97285089;4
+323;Saraburi - Agri Growout office;10065;Saraburi - Agri Growout office;;TRUE;AP;CPS;Cargill Protein – Asia & Europe;Cargill Protein Southeast Asia;;THAILAND;TH;Saraburi - Agri Growout office;;14.54201133;14.54201133;4
+324;Binh Duong;1330665;Binh Duong;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Binh Duong;;11.28427188;11.28427188;4
+325;Binh Dinh - Qui Nhon;1330665;Binh Dinh - Qui Nhon;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Binh Dinh - Qui Nhon;;13.79625206;13.79625206;4
+326;Hung Yen;13465;Hung Yen;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Hung Yen;;20.94817293;20.94817293;4
+327;Hanoi;1350245;Hanoi;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Hanoi;;21.029732727;21.029732727;4
+328;Binh Dinh - Can Tho;1330665;Binh Dinh - Can Tho;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Binh Dinh - Can Tho;;10.1008318;10.1008318;4
+329;Long An;1330673;Long An;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Long An;;10.613468;10.613468;4
+330;Nghe An;641557;Nghe An;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Nghe An;;18.86378906;18.86378906;4
+331;Ha Nam;23291;Ha Nam;;TRUE;AP;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;VIET NAM;VN;Ha Nam;;21.19395601;21.19395601;4
+332;Dong Thap;642100;Dong Thap;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;VIET NAM;VN;Dong Thap;;10.30241175;10.30241175;4
+333;Tien Giang;1330672;Tien Giang;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;VIET NAM;VN;Tien Giang;;10.4804454;10.4804454;4
+334;Long An EWOS;1330673;Long An EWOS;;TRUE;AP;ANH;CQN and Seafood;Cargill Aqua Nutrition;;VIET NAM;VN;Long An EWOS;;10.58757224;10.58757224;4
+335;Ho Chi Minh City;27299;Ho Chi Minh City;;TRUE;AP;CORP;Global Network Asia Pacific;Global Network Asia Pacific;;VIET NAM;VN;Ho Chi Minh City;;10.72966;10.72966;4
+337;Elk River-1;641268;Elk River;;FALSE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Elk River;;45.268657;45.268657;4
+338;Savage;1790058;Savage;;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;Savage;;44.782;44.782;4
+340;Blair, NE;13589;Blair, NE;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Corn Milling North America;;UNITED STATES OF AMERICA (THE);US;Blair, NE;;41.530387;41.530387;4
+342;Cedar Rapids, IA (FIBI);1150021;Cedar Rapids, IA (FIBI);;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Corn Milling North America;;UNITED STATES OF AMERICA (THE);US;Cedar Rapids, IA (FIBI);;41.969667;41.969667;4
+344;Dayton, OH;1850313;Dayton, OH;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Corn Milling North America;;UNITED STATES OF AMERICA (THE);US;Dayton, OH;;39.821672;39.821672;4
+345;Eddyville, IA;100235;Eddyville, IA;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Starches and Sweeteners North America;;UNITED STATES OF AMERICA (THE);US;Eddyville, IA;;41.13854;41.13854;4
+346;Fort Dodge, IA;100232;Fort Dodge, IA;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Corn Milling North America;;UNITED STATES OF AMERICA (THE);US;Fort Dodge, IA;;42.4977;42.4977;4
+347;Fullerton, CA;1030154;Fullerton, CA;;TRUE;NA;FIBI;Global Edible Oil Solutions;GEOS NA;;UNITED STATES OF AMERICA (THE);US;Fullerton, CA;;33.874077;33.874077;4
+348;Gainesville, GA;1850283;Gainesville, GA;;TRUE;NA;FIBI;Global Edible Oil Solutions;GEOS NA;;UNITED STATES OF AMERICA (THE);US;Gainesville, GA;;34.290375;34.290375;4
+349;Hammond, IN;1070263;Hammond, IN;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Foods NA;;UNITED STATES OF AMERICA (THE);US;Hammond, IN;;41.689889;41.689889;4
+351;Milwaukee, WI;1030244;Milwaukee, WI;;TRUE;NA;FIBI;Cocoa and Chocolate;Cargill Cocoa & Chocolate North America;;UNITED STATES OF AMERICA (THE);US;Milwaukee, WI;;43.12358;43.12358;4
+353;Abilene, TX;1030136;Abilene, TX;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Abilene, TX;;32.437277;32.437277;4
+354;Albany, NY;1030405;Albany, NY;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Albany, NY;;42.6228;42.6228;4
+355;Ankeny, IA;1370296;Ankeny, IA;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Health Technologies;;UNITED STATES OF AMERICA (THE);US;Ankeny, IA;;41.7091;41.7091;4
+356;Byhalia, MS;1030302;Byhalia, MS;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Byhalia, MS;;34.856417;34.856417;4
+357;Cedar Rapids, IA (ANH);1150021;Cedar Rapids, IA (ANH);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Health Technologies;;UNITED STATES OF AMERICA (THE);US;Cedar Rapids, IA (ANH);;41.91823;41.91823;4
+358;Swiecie;23642;Swiecie;;TRUE;EMEA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;POLAND;PL;Swiecie;;53.397255;53.397255;1
+360;Fremont, NE;1330624;Fremont, NE;;TRUE;NA;ANH;CQN and Seafood;CQN NA;;UNITED STATES OF AMERICA (THE);US;Fremont, NE;;41.420467;41.420467;4
+361;Lewisburg, OH;1770081;Lewisburg, OH;;TRUE;NA;ANH;CQN and Seafood;CQN NA;;UNITED STATES OF AMERICA (THE);US;Lewisburg, OH;;39.832702;39.832702;4
+362;Mentone, IN;1070044;Mentone, IN;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Mentone, IN;;41.174396;41.174396;4
+363;Oklahoma City, OK;1070170;Oklahoma City, OK;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Oklahoma City, OK;;35.44371;35.44371;4
+364;Olathe, KS;642159;Olathe, KS;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Olathe, KS;;39.03475;39.03475;4
+365;Park City, KY;8717;Park City, KY;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Park City, KY;;37.095314;37.095314;4
+366;St Valerien, QC;642176;St Valerien, QC;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;CANADA;CA;St Valerien, QC;;45.557269;45.557269;4
+367;Stockton, CA;1030167;Stockton, CA;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Stockton, CA;;37.900855;37.900855;4
+368;Surrey, BC;1030107;Surrey, BC;;TRUE;NA;ANH;CQN and Seafood;CQN NA;;CANADA;CA;Surrey, BC;;49.1435115;49.1435115;4
+369;Cleveland, OH;1950008;Cleveland, OH;;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;Cleveland, OH;;41.4957;41.4957;4
+370;Dodge City, KS;1850035;Dodge City, KS;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Dodge City, KS;;37.737;37.737;4
+371;Fort Morgan, CO;1070468;Fort Morgan, CO;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Fort Morgan, CO;;40.245373;40.245373;4
+372;Fresno, CA;1690008;Fresno, CA;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Fresno, CA;;36.692209;36.692209;4
+373;Friona, TX;520347;Friona, TX;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Foods NA;;UNITED STATES OF AMERICA (THE);US;Friona, TX;;34.598293;34.598293;4
+374;Guelph, ON;1030074;Guelph, ON;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;CANADA;CA;Guelph, ON;;43.554427;43.554427;4
+375;High River, AB;1590046;High River, AB;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;CANADA;CA;High River, AB;;50.626979;50.626979;4
+376;Hutchinson, KS;1070238;Hutchinson, KS;;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;Hutchinson, KS;;38.041636;38.041636;4
+377;Schuyler, NE;26628;Schuyler, NE;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Schuyler, NE;;41.4500097;41.4500097;4
+378;South Lansing, NY;1150039;South Lansing, NY;;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;South Lansing, NY;;42.531;42.531;4
+379;St Clair, MI;2614;St Clair, MI;;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;St Clair, MI;;42.8182;42.8182;4
+380;Wichita, KS HQ;2758;Wichita, KS HQ;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Wichita, KS HQ;;37.6855819;37.6855819;4
+381;Wyalusing, PA;1850231;Wyalusing, PA;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Wyalusing, PA;;41.6843;41.6843;4
+382;Hopkins, MN;1710443;Hopkins, MN;;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Hopkins, MN;;44.924677;44.924677;4
+383;Wayzata, MN;1850334;Wayzata, MN;;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Wayzata, MN;;44.952476;44.952476;4
+384;Wayzata, MN 2;1850334;Wayzata, MN 2;;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Wayzata, MN 2;;44.952477;44.952477;4
+386;America;642239;America;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;America;;-35.29163;-35.29163;4
+387;Arias;642248;Arias;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Arias;;-33.37176;-33.37176;4
+388;Arribenos;642250;Arribenos;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Arribenos;;-34.13064;-34.13064;4
+389;Bahia Blanca;12423;Bahia Blanca;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Bahia Blanca;;-38.47149;-38.47149;4
+390;Bandera;642261;Bandera;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Bandera;;-28.51505;-28.51505;4
+391;Bell Ville;642279;Bell Ville;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Bell Ville;;-32.35387;-32.35387;4
+392;Bragado;642298;Bragado;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Bragado;;-35.07445;-35.07445;4
+393;Buenos Aires;1150085;Buenos Aires;;TRUE;LA;CORP;Miscellaneous;Shared Offices;;ARGENTINA;AR;Buenos Aires;;-34.35403;-34.35403;4
+394;Chapuy;642358;Chapuy;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Chapuy;;-33.47481;-33.47481;4
+395;Cisnes;642579;Cisnes;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Cisnes;;-33.21054;-33.21054;4
+396;Colon;642383;Colon;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Colon;;-33.54295;-33.54295;4
+397;Corral de Bustos;642392;Corral de Bustos;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Corral de Bustos;;-33.16435;-33.16435;4
+398;Del Carril;10532;Del Carril;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Del Carril;;-35.3016;-35.3016;4
+399;Gral Pico;28887;Gral Pico;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Gral Pico;;-35.37582;-35.37582;4
+400;Inriville;10554;Inriville;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Inriville;;-32.57091;-32.57091;4
+401;Laboulaye;642554;Laboulaye;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Laboulaye;;-34.07125;-34.07125;4
+402;Larroude;13471;Larroude;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Larroude;;-35.11762;-35.11762;4
+403;Lincoln;642571;Lincoln;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Lincoln;;-34.49571;-34.49571;4
+404;Los Toldos;642580;Los Toldos;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Los Toldos;;-34.59441;-34.59441;4
+405;Nueve de Julio;641743;Nueve de Julio;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Nueve de Julio;;-35.27191;-35.27191;4
+406;Pehuajo;662197;Pehuajo;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Pehuajo;;-35.50288;-35.50288;4
+407;Pergamino;662199;Pergamino;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Pergamino;;-33.56129;-33.56129;4
+408;Puerto Diamante;1150190;Puerto Diamante;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Puerto Diamante;;-32.03222;-32.03222;4
+409;Puerto San Martin;1150190;Puerto San Martin;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Puerto San Martin;;-32.39593;-32.39593;4
+410;Punta Alvear / VGG;3218;Punta Alvear / VGG;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Punta Alvear / VGG;;-33.02228;-33.02228;4
+411;Rio Cuarto1;13693;Rio Cuarto1;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Rio Cuarto1;;-33.09271;-33.09271;4
+412;Rio Cuarto;13693;Rio Cuarto;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Rio Cuarto;;-33.09074;-33.09074;4
+413;Rio Primero;662243;Rio Primero;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Rio Primero;;-31.202;-31.202;4
+414;Rojas;662247;Rojas;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Rojas;;-34.12331;-34.12331;4
+415;Rosario CBS / Casa Blanca 1;28511;Rosario CBS / Casa Blanca 1;;TRUE;LA;CORP;Miscellaneous;CBS;;ARGENTINA;AR;Rosario CBS / Casa Blanca 1;;-32.56356;-32.56356;4
+416;Rosario SSC / Bolsa de Comercio CBS;28511;Rosario SSC / Bolsa de Comercio CBS;;TRUE;LA;CORP;Miscellaneous;CBS;;ARGENTINA;AR;Rosario SSC / Bolsa de Comercio CBS;;-32.56417;-32.56417;4
+417;Rufino;10565;Rufino;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Rufino;;-34.15398;-34.15398;4
+418;Tosquita;10514;Tosquita;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Tosquita;;-33.49066;-33.49066;4
+419;Trenque Lauquen;10507;Trenque Lauquen;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Trenque Lauquen;;-35.59531;-35.59531;4
+420;Vedia;10586;Vedia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Vedia;;-34.30221;-34.30221;4
+421;Venado Tuerto GOSC;10504;Venado Tuerto GOSC;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Venado Tuerto GOSC;;-33.43389;-33.43389;4
+422;Venado Tuerto Provimi;10504;Venado Tuerto Provimi;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;ARGENTINA;AR;Venado Tuerto Provimi;;-33.46285;-33.46285;4
+423;Villaguay;1030141;Villaguay;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;ARGENTINA;AR;Villaguay;;-31.48142;-31.48142;4
+424;Santa Cruz Bolivia;1150265;Santa Cruz Bolivia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;BOLIVIA (PLURINATIONAL STATE OF);BO;Santa Cruz Bolivia;;-17.47399;-17.47399;4
+425;Tres Cruces;7551;Tres Cruces;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;BOLIVIA (PLURINATIONAL STATE OF);BO;Tres Cruces;;-17.37565;-17.37565;4
+426;Acreuna;13487;Acreuna;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Acreuna;;-17.23201;-17.23201;4
+427;Agua Boa;10831;Agua Boa;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Agua Boa;;-14.01452;-14.01452;4
+428;Almeida Campos;1950569;Almeida Campos;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Almeida Campos;;-19.321985;-19.321985;4
+429;Altamira;1150083;Altamira;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Altamira;;3.105194;3.105194;4
+430;Alto Araguaia;1950574;Alto Araguaia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Alto Araguaia;;-16.572291;-16.572291;4
+431;Alto Garcas;642237;Alto Garcas;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Alto Garcas;;-16.57229101;-16.57229101;4
+432;Alto Taquari;1950562;Alto Taquari;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Alto Taquari;;-17.474409;-17.474409;4
+433;Balsas;642259;Balsas;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Balsas;;7.30584;7.30584;4
+434;Boa Esperanca;642293;Boa Esperanca;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Boa Esperanca;;-13.32408;-13.32408;4
+435;Bom Jesus;21264;Bom Jesus;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Bom Jesus;;-18.05096;-18.05096;4
+436;Caarapo;642319;Caarapo;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Caarapo;;-22.38121;-22.38121;4
+437;Caiaponia;29358;Caiaponia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Caiaponia;;-16.55112;-16.55112;4
+438;Camapua;13425;Camapua;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Camapua;;-19.35351;-19.35351;4
+439;Campinas Business Technology Center;642323;Campinas Business Technology Center;;TRUE;LA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches and Sweeteners South America;;BRAZIL;BR;Campinas Business Technology Center;;-22.48353;-22.48353;4
+440;Campinas DC;642323;Campinas DC;;TRUE;LA;CORP;Miscellaneous;Data Center;;BRAZIL;BR;Campinas DC;;-22.51028;-22.51028;4
+441;Campinas provimi;642323;Campinas provimi;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;BRAZIL;BR;Campinas provimi;;-22.515761;-22.515761;4
+442;Campo Grande;13948;Campo Grande;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Campo Grande;;-20.295845;-20.295845;4
+443;Campo Novo do Parecis;642325;Campo Novo do Parecis;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Campo Novo do Parecis;;-13.39518;-13.39518;4
+444;Campos de Julio;642326;Campos de Julio;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Campos de Julio;;-13.43061;-13.43061;4
+445;Campos Lindos;1950559;Campos Lindos;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Campos Lindos;;8.52324;8.52324;4
+446;Canarana;13501;Canarana;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Canarana;;-13.32545;-13.32545;4
+447;Caravagio;14273;Caravagio;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Caravagio;;-12.58157;-12.58157;4
+448;Carazinho;13816;Carazinho;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Carazinho;;-15.09096;-15.09096;4
+449;Cascavel / Muffato;8244;Cascavel / Muffato;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Cascavel / Muffato;;-24.56435;-24.56435;4
+450;Castro;26054;Castro;;TRUE;LA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches and Sweeteners South America;;BRAZIL;BR;Castro;;-24.46522;-24.46522;4
+451;Catalao Armazen;642342;Catalao Armazen;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Catalao Armazen;;-18.11285;-18.11285;4
+452;Cerejeiras;27117;Cerejeiras;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Cerejeiras;;-13.12571;-13.12571;4
+453;Chapada;29115;Chapada;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Chapada;;-17.44358;-17.44358;4
+454;Chapadao Do Sul;642357;Chapadao Do Sul;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Chapadao Do Sul;;-18.474909;-18.474909;4
+455;Chapeco;642189;Chapeco;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;BRAZIL;BR;Chapeco;;-27.91501;-27.91501;4
+456;Claudia;642019;Claudia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Claudia;;-11.29483;-11.29483;4
+457;Coaceral;29071;Coaceral;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Coaceral;;-10.3343;-10.3343;4
+458;Colina;890003;Colina;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Colina;;-20.422662;-20.422662;4
+459;Comodoro;642385;Comodoro;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Comodoro;;-13.39216;-13.39216;4
+460;Conceicao das Alagoas;1950592;Conceicao das Alagoas;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Conceicao das Alagoas;;-19.55401;-19.55401;4
+461;Diamantino;29080;Diamantino;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Diamantino;;-14.2245307;-14.2245307;4
+462;Dourados;13509;Dourados;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Dourados;;-14.235098;-14.235098;4
+463;Estrondo;642435;Estrondo;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Estrondo;;-11.30088;-11.30088;4
+464;Gandu;680016;Gandu;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Gandu;;-13.44461;-13.44461;4
+465;Gaucha do Norte;1950591;Gaucha do Norte;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Gaucha do Norte;;-13.105377;-13.105377;4
+466;Goiania GEOS2;100051;Goiania GEOS2;;TRUE;LA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;BRAZIL;BR;Goiania GEOS2;;-16.37007;-16.37007;4
+467;Goianira;641721;Goianira;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;BRAZIL;BR;Goianira;;-16.35064;-16.35064;4
+468;Goiatuba;3450;Goiatuba;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Goiatuba;;-18.05062;-18.05062;4
+469;Ilheus;13098;Ilheus;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Ilheus;;-14.475778;-14.475778;4
+470;Itabuna;29209;Itabuna;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Itabuna;;-14.475533;-14.475533;4
+471;Itaituba / Miritituba;26460;Itaituba / Miritituba;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Itaituba / Miritituba;;4.17517;4.17517;4
+472;Itapira;1350414;Itapira;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;BRAZIL;BR;Itapira;;-22.234589;-22.234589;4
+473;Itumbiara GEOS1;641869;Itumbiara GEOS1;;TRUE;LA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;BRAZIL;BR;Itumbiara GEOS1;;-18.23744;-18.23744;4
+474;Jatai;1950596;Jatai;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Jatai;;-18.47215;-18.47215;4
+475;Jundiai DC;2853;Jundiai DC;;TRUE;LA;CORP;Miscellaneous;Data Center;;BRAZIL;BR;Jundiai DC;;-23.11294;-23.11294;4
+476;Lucas do Rio Verde;642582;Lucas do Rio Verde;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Lucas do Rio Verde;;-13.31533;-13.31533;4
+477;LUIS ED MAGALHAES;10841;LUIS ED MAGALHAES;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;LUIS ED MAGALHAES;;-12.06552;-12.06552;4
+478;Mairinque GEOS3;1350407;Mairinque GEOS3;;TRUE;LA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;BRAZIL;BR;Mairinque GEOS3;;-23.32291;-23.32291;4
+479;Marabá;850008;Marabá;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Marabá;;-24.49381;-24.49381;4
+480;Maracaju;1330557;Maracaju;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Maracaju;;-21.363961;-21.363961;4
+481;Maringa;3484;Maringa;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Maringa;;-23.271538;-23.271538;4
+482;Matupa;27164;Matupa;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Matupa;;-10.08591;-10.08591;4
+483;Montividiu;662116;Montividiu;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Montividiu;;-17.295563;-17.295563;4
+484;Nova Mutum;10828;Nova Mutum;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Nova Mutum;;-13.48761;-13.48761;4
+485;Ouro Verde;13894;Ouro Verde;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Ouro Verde;;-16.364122;-16.364122;4
+486;Paranagua;10814;Paranagua;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Paranagua;;-25.301553;-25.301553;4
+487;PARAUNA;642025;PARAUNA;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;PARAUNA;;-16.57581;-16.57581;4
+488;PASSO FUNDO;29232;PASSO FUNDO;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;PASSO FUNDO;;-28.16038;-28.16038;4
+489;Patos de Minas ;680057;Patos de Minas ;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Patos de Minas ;;-18.40289;-18.40289;4
+490;Patrocinio;10635;Patrocinio;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Patrocinio;;-18.53206;-18.53206;4
+491;Perdizes;460064;Perdizes;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Perdizes;;-19.25014;-19.25014;4
+492;Perolândia;642024;Perolândia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Perolândia;;-17.31354;-17.31354;4
+493;Piracanjuba;1950610;Piracanjuba;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Piracanjuba;;-17.2422;-17.2422;4
+494;Planalto;10811;Planalto;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Planalto;;2.32387;2.32387;4
+495;Ponta Grossa Almacen;100063;Ponta Grossa Almacen;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Ponta Grossa Almacen;;-25.112229;-25.112229;4
+496;Ponta Grossa Fabrica;100063;Ponta Grossa Fabrica;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Ponta Grossa Fabrica;;-25.124825;-25.124825;4
+497;Ponta Grossa SGS MicroIngredients;100063;Ponta Grossa SGS MicroIngredients;;TRUE;LA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;BRAZIL;BR;Ponta Grossa SGS MicroIngredients;;-25.09593;-25.09593;4
+498;Porto Ferreira;1950584;Porto Ferreira;;TRUE;LA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches and Sweeteners South America;;BRAZIL;BR;Porto Ferreira;;-21.51484;-21.51484;4
+499;Porto Franco;2065;Porto Franco;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Porto Franco;;6.20282;6.20282;4
+500;Porto Velho;1950584;Porto Velho;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Porto Velho;;8.444065;8.444065;4
+501;Posto 220;10830;Posto 220;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Posto 220;;-11.38236;-11.38236;4
+502;Prata;29332;Prata;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Prata;;-19.18008;-19.18008;4
+503;Primavera;641889;Primavera;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Primavera;;-15.32589;-15.32589;4
+504;Primavera do Leste;641889;Primavera do Leste;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Primavera do Leste;;-15.34312;-15.34312;4
+505;Querencia;662228;Querencia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Querencia;;-12.36342;-12.36342;4
+506;Rio brilhante;10712;Rio brilhante;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Rio brilhante;;-21.39323;-21.39323;4
+507;Rio Preto;662243;Rio Preto;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Rio Preto;;-18.0608;-18.0608;4
+508;Rio Verde;10591;Rio Verde;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Rio Verde;;-17.472618;-17.472618;4
+509;Rio Verdinho;10591;Rio Verdinho;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Rio Verdinho;;-17.35399;-17.35399;4
+510;Santa Helena;1150285;Santa Helena;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Santa Helena;;-17.552373;-17.552373;4
+511;Santarem;2100;Santarem;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Santarem;;2.2502;2.2502;4
+512;Sao Desiderio / Roda Velha;13479;Sao Desiderio / Roda Velha;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sao Desiderio / Roda Velha;;-12.45428;-12.45428;4
+513;Sao Gabriel Do oeste;2092;Sao Gabriel Do oeste;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sao Gabriel Do oeste;;-19.21186;-19.21186;4
+514;Sao Jose do Xingu;27254;Sao Jose do Xingu;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sao Jose do Xingu;;-10.53579;-10.53579;4
+515;Sao Paulo Main office;1350391;Sao Paulo Main office;;TRUE;LA;CORP;Miscellaneous;Shared Offices;;BRAZIL;BR;Sao Paulo Main office;;-23.3728;-23.3728;4
+516;Sao Paulo TCS;1350391;Sao Paulo TCS;;TRUE;LA;CORP;Miscellaneous;Shared Offices;;BRAZIL;BR;Sao Paulo TCS;;-23.29418;-23.29418;4
+517;Sapezal;662280;Sapezal;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sapezal;;-13.323093;-13.323093;4
+518;Sidrolandia;662302;Sidrolandia;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sidrolandia;;-20.56517;-20.56517;4
+519;Sinop;2104;Sinop;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sinop;;-11.423788;-11.423788;4
+520;Sonora;1950556;Sonora;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sonora;;-17.3841;-17.3841;4
+521;Sorriso;362012;Sorriso;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Sorriso;;-12.183933;-12.183933;4
+522;Tangara Da Serra / Entroncamento;2174;Tangara Da Serra / Entroncamento;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Tangara Da Serra / Entroncamento;;-14.19317;-14.19317;4
+523;TASSO FRAGOSO;13493;TASSO FRAGOSO;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;TASSO FRAGOSO;;8.02299;8.02299;4
+524;Toledo;1030364;Toledo;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;BRAZIL;BR;Toledo;;-24.4515;-24.4515;4
+525;Tres Lagoas;1950549;Tres Lagoas;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Tres Lagoas;;-20.474734;-20.474734;4
+526;Uberlandia CBS;1950547;Uberlandia CBS;;TRUE;LA;CORP;Miscellaneous;CBS;;BRAZIL;BR;Uberlandia CBS;;-18.52483;-18.52483;4
+527;Uberlandia Fabrica;1950547;Uberlandia Fabrica;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Uberlandia Fabrica;;-18.51028;-18.51028;4
+528;Uruacu;662377;Uruacu;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Uruacu;;-14.31472;-14.31472;4
+529;Uruara;680023;Uruara;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Uruara;;3.42466;3.42466;4
+530;Vianopolis;662383;Vianopolis;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Vianopolis;;-16.4437;-16.4437;4
+531;Vicentinopolis;10679;Vicentinopolis;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Vicentinopolis;;-17.424065;-17.424065;4
+532;Vilhena;10811;Vilhena;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Vilhena;;-12.461187;-12.461187;4
+533;Chinquihue;1090001;Chinquihue;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;CHILE;CL;Chinquihue;;-41.30495;-41.30495;4
+534;Colaco;662493;Colaco;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;CHILE;CL;Colaco;;-41.4605;-41.4605;4
+535;Coronel;1710131;Coronel;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;CHILE;CL;Coronel;;-36.5722;-36.5722;4
+536;Puertomontt;1150190;Puertomontt;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;CHILE;CL;Puertomontt;;-41.28249;-41.28249;4
+537;BARRANCA;1150174;BARRANCA;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;BARRANCA;;7.03339;7.03339;4
+538;Barranquilla;661676;Barranquilla;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Barranquilla;;10.57144;10.57144;4
+539;BENEFICIO Portachuelo;1150089;BENEFICIO Portachuelo;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;BENEFICIO Portachuelo;;7.21292;7.21292;4
+540;Bogota;1350460;Bogota;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;COLOMBIA;CO;Bogota;;4.39195;4.39195;4
+541;BOGOTA Paloquemao;641776;BOGOTA Paloquemao;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;BOGOTA Paloquemao;;4.36589;4.36589;4
+542;Bogota Montevideo;1350460;Bogota Montevideo;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Bogota Montevideo;;4.38555;4.38555;4
+543;Bogota Siberia;9947;Bogota Siberia;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Bogota Siberia;;4.44049;4.44049;4
+544;BOSCONIA;362326;BOSCONIA;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;BOSCONIA;;9.58221;9.58221;4
+545;Buga;1710432;Buga;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Buga;;3.54121;3.54121;4
+546;CALI;1878;CALI;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;CALI;;3.28238;3.28238;4
+547;Caribe Cartagena;870111;Caribe Cartagena;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Caribe Cartagena;;10.11181;10.11181;4
+548;Cavasa;1150076;Cavasa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Cavasa;;3.24294;3.24294;4
+549;CONCENTRADOS Giron;661689;CONCENTRADOS Giron;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;CONCENTRADOS Giron;;7.05114;7.05114;4
+550;DUITAMA;1150182;DUITAMA;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;DUITAMA;;5.49011;5.49011;4
+551;ESMERALDA;1150220;ESMERALDA;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;ESMERALDA;;7.0511401;7.0511401;4
+552;Funza;10029;Funza;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;COLOMBIA;CO;Funza;;4.42542;4.42542;4
+553;Ginebra;9100;Ginebra;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Ginebra;;3.44033;3.44033;4
+554;Girardota;9943;Girardota;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Girardota;;6.23006;6.23006;4
+555;INCUBACION Bahondo;1150130;INCUBACION Bahondo;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;INCUBACION Bahondo;;7.05114002;7.05114002;4
+556;La Dorada;9939;La Dorada;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;La Dorada;;5.26513;5.26513;4
+557;La Nubia;1150133;La Nubia;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;La Nubia;;3.26362;3.26362;4
+558;MONTERIA San Jeronimo;13299;MONTERIA San Jeronimo;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;MONTERIA San Jeronimo;;8.4352;8.4352;4
+559;OFICINA PPAL Bucaramanga;12901;OFICINA PPAL Bucaramanga;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;OFICINA PPAL Bucaramanga;;7.0342;7.0342;4
+560;PARQUE INDUSTRIAL Chimita;642007;PARQUE INDUSTRIAL Chimita;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;PARQUE INDUSTRIAL Chimita;;7.08303;7.08303;4
+561;Pasto;1150188;Pasto;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Pasto;;1.12282;1.12282;4
+562;Pereira;362436;Pereira;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Pereira;;4.493;4.493;4
+563;Popayan;1150189;Popayan;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Popayan;;2.28528;2.28528;4
+564;Restrepo;11156;Restrepo;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Restrepo;;3.47528;3.47528;4
+565;Rio Negro;641663;Rio Negro;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Rio Negro;;6.10427;6.10427;4
+566;Sabaneta;1150195;Sabaneta;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Sabaneta;;6.09277;6.09277;4
+567;SABANETA Sabaneta Las Vegas;1150195;SABANETA Sabaneta Las Vegas;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;SABANETA Sabaneta Las Vegas;;6.0911;6.0911;4
+568;Tulua;1150198;Tulua;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Tulua;;4.03482;4.03482;4
+569;VALLEDUPAR;362325;VALLEDUPAR;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;VALLEDUPAR;;10.27543;10.27543;4
+570;Villagorgona;1030141;Villagorgona;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Villagorgona;;3.23374;3.23374;4
+571;Alajuela Cafetal 1 CBS;1330191;Alajuela Cafetal 1 CBS;;TRUE;LA;CORP;Miscellaneous;CBS;;COSTA RICA;CR;Alajuela Cafetal 1 CBS;;9.59203;9.59203;4
+572;Alajuela Cafetal 2;1330191;Alajuela Cafetal 2;;TRUE;LA;CORP;Miscellaneous;CBS;;COSTA RICA;CR;Alajuela Cafetal 2;;9.59204;9.59204;4
+573;CEDI Guapiles;661696;CEDI Guapiles;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;CEDI Guapiles;;10.12143;10.12143;4
+574;CEDI Muelle;661698;CEDI Muelle;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;CEDI Muelle;;10.28505;10.28505;4
+575;CEDI Nicoya;661700;CEDI Nicoya;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;CEDI Nicoya;;10.10138;10.10138;4
+576;CEDI Perez Zeledon;662506;CEDI Perez Zeledon;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;CEDI Perez Zeledon;;9.20142;9.20142;4
+577;Cinta Azul;661579;Cinta Azul;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;Cinta Azul;;9.59478;9.59478;4
+578;Cobesa Plant;120047;Cobesa Plant;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;Cobesa Plant;;9.58345;9.58345;4
+579;Kimby San Rafael;661580;Kimby San Rafael;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;Kimby San Rafael;;9.58079;9.58079;4
+580;CAN San Rafael;13698;CAN San Rafael;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;COSTA RICA;CR;CAN San Rafael;;9.58237;9.58237;4
+581;Planta Birri Huevo Comercial;1330618;Planta Birri Huevo Comercial;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;Planta Birri Huevo Comercial;;10.03425;10.03425;4
+582;Sardinal Concentrados;21478;Sardinal Concentrados;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;Sardinal Concentrados;;10.06189;10.06189;4
+583;Sardinal Incubadora;21478;Sardinal Incubadora;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COSTA RICA;CR;Sardinal Incubadora;;10.05532;10.05532;4
+584;Duran Aqua;10722;Duran Aqua;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;ECUADOR;EC;Duran Aqua;;2.11499;2.11499;4
+585;Escuintla CEDI Sur;26805;Escuintla CEDI Sur;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;GUATEMALA;GT;Escuintla CEDI Sur;;14.16208;14.16208;4
+586;Guatemala City CAN;1330187;Guatemala City CAN;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;GUATEMALA;GT;Guatemala City CAN;;14.34112;14.34112;4
+587;Mariscal;9976;Mariscal;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;GUATEMALA;GT;Mariscal;;14.36381;14.36381;4
+588;Perry;661569;Perry;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;GUATEMALA;GT;Perry;;14.37068;14.37068;4
+589;Bufalo Alcon;3958;Bufalo Alcon;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;HONDURAS;HN;Bufalo Alcon;;15.24122;15.24122;4
+590;Bufalo Pronorsa;3302336;Bufalo Pronorsa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Bufalo Pronorsa;;15.23442;15.23442;4
+591;Choluteca Cargill Honduras;661740;Choluteca Cargill Honduras;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Choluteca Cargill Honduras;;13.19031;13.19031;4
+592;Comayagua;661772;Comayagua;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Comayagua;;14.27407;14.27407;4
+593;Delicia;642059;Delicia;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Delicia;;15.29188;15.29188;4
+594;Dos Caminos Cortes Tegucigalpa;661771;Dos Caminos Cortes Tegucigalpa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Dos Caminos Cortes Tegucigalpa;;15.21191;15.21191;4
+595;Juticalpa;1710147;Juticalpa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Juticalpa;;14.38151;14.38151;4
+596;La Ceiba;661773;La Ceiba;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;La Ceiba;;15.44501;15.44501;4
+597;SAN PEDRO SULA;1370479;SAN PEDRO SULA;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;SAN PEDRO SULA;;15.32112;15.32112;4
+598;Santa Cruz Honduras;1150265;Santa Cruz Honduras;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Santa Cruz Honduras;;15.00164;15.00164;4
+599;Siguatepeque;661777;Siguatepeque;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Siguatepeque;;14.34441;14.34441;4
+600;Tegucigalpa CPLA;3957;Tegucigalpa CPLA;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Tegucigalpa CPLA;;14.03554;14.03554;4
+601;Tegucigalpa CFN;3957;Tegucigalpa CFN;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;HONDURAS;HN;Tegucigalpa CFN;;14.02542;14.02542;4
+602;Tocoa;661775;Tocoa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;HONDURAS;HN;Tocoa;;15.38565;15.38565;4
+603;CEDI Jalisco;6747;CEDI Jalisco;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;CEDI Jalisco;;20.28194;20.28194;4
+604;Cuautitlan;12488;Cuautitlan;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Cuautitlan;;19.39364;19.39364;4
+605;Culiacan San Rafael;10718;Culiacan San Rafael;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Culiacan San Rafael;;24.37333;24.37333;4
+606;Culiacan TSF;10718;Culiacan TSF;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Culiacan TSF;;24.48534;24.48534;4
+607;El Salto;520892;El Salto;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;El Salto;;20.31015;20.31015;4
+608;Guadalajara;12012;Guadalajara;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;MEXICO;MX;Guadalajara;;20.36567;20.36567;4
+609;Hermosillo;642213;Hermosillo;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Hermosillo;;29.01352;29.01352;4
+610;Irapuato;540432;Irapuato;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Irapuato;;20.38186;20.38186;4
+611;Mexico City;24776;Mexico City;;TRUE;LA;CORP;Miscellaneous;Shared Offices;;MEXICO;MX;Mexico City;;19.22055;19.22055;4
+612;Mochis GOSC;10729;Mochis GOSC;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Mochis GOSC;;25.47327;25.47327;4
+613;Monterrey;13299;Monterrey;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Monterrey;;25.4214252;25.4214252;4
+614;Monterry 2;13299;Monterry 2;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;MEXICO;MX;Monterry 2;;25.5224;25.5224;4
+615;Obregon;1150320;Obregon;;TRUE;LA;ANH;CQN and Seafood;CQN LATAM;;MEXICO;MX;Obregon;;27.27135;27.27135;4
+616;Obregon provimi;1150320;Obregon provimi;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Obregon provimi;;27.28372;27.28372;4
+617;Poncitlan;641519;Poncitlan;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Poncitlan;;20.373686;20.373686;4
+618;Queretaro;1575;Queretaro;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;MEXICO;MX;Queretaro;;20.39116;20.39116;4
+619;Queretaro TCS;1575;Queretaro TCS;;TRUE;LA;CORP;Miscellaneous;Shared Offices;;MEXICO;MX;Queretaro TCS;;20.37093;20.37093;4
+620;Salamanca;642180;Salamanca;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Salamanca;;20.36549;20.36549;4
+621;San Angel;520231;San Angel;;TRUE;LA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches and Sweeteners South America;;MEXICO;MX;San Angel;;19.2055;19.2055;4
+622;Tehuacan;460095;Tehuacan;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;MEXICO;MX;Tehuacan;;18.26592;18.26592;4
+623;Tula;1210038;Tula;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Tula;;20.02053;20.02053;4
+624;Veracruz;25263;Veracruz;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Veracruz;;19.123419;19.123419;4
+625;Bonaire;1850277;Bonaire;;TRUE;LA;CPS;Salt;Salt;;BONAIRE, SINT EUSTATIUS AND SABA;BQ;Bonaire;;12.0459;12.0459;4
+626;Chinandega;641821;Chinandega;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Chinandega;;12.36309;12.36309;4
+627;Escala;661806;Escala;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Escala;;12.06051;12.06051;4
+628;Esteli;661742;Esteli;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Esteli;;13.0431;13.0431;4
+629;Leon;661744;Leon;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Leon;;12.25327;12.25327;4
+630;Masaya Mebasa;11323;Masaya Mebasa;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;NICARAGUA;NI;Masaya Mebasa;;11.58145;11.58145;4
+631;Masaya Tip Top;11323;Masaya Tip Top;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Masaya Tip Top;;12.02236;12.02236;4
+632;Matagalpa;11044;Matagalpa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Matagalpa;;12.54353;12.54353;4
+633;Ricasa;661703;Ricasa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Ricasa;;12.06326;12.06326;4
+634;Xiloa;661704;Xiloa;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;NICARAGUA;NI;Xiloa;;12.10366;12.10366;4
+635;MINGA GUAZU;641469;MINGA GUAZU;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;MINGA GUAZU;;-25.29228;-25.29228;4
+636;Puerto Paloma;362031;Puerto Paloma;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;Puerto Paloma;;-26.51293;-26.51293;4
+637;San Alberto;1710165;San Alberto;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;San Alberto;;-24.552207;-24.552207;4
+638;Santa Rita;29381;Santa Rita;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;Santa Rita;;-25.48488;-25.48488;4
+639;Lima AMG;10337;Lima AMG;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PERU;PE;Lima AMG;;-12.05425;-12.05425;4
+640;Lima CAN;10337;Lima CAN;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;PERU;PE;Lima CAN;;-11.58477;-11.58477;4
+641;Cardona Florencio Sanchez;28937;Cardona Florencio Sanchez;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;URUGUAY;UY;Cardona Florencio Sanchez;;-33.53207;-33.53207;4
+642;Mercedes;662101;Mercedes;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;URUGUAY;UY;Mercedes;;-33.16507;-33.16507;4
+643;Montevideo;1330549;Montevideo;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;URUGUAY;UY;Montevideo;;-34.53259;-34.53259;4
+644;Nueva Palmira;13806;Nueva Palmira;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;URUGUAY;UY;Nueva Palmira;;-33.53102;-33.53102;4
+645;Bebedouro;8286;Bebedouro;;TRUE;LA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches and Sweeteners South America;;BRAZIL;BR;Bebedouro;;-20.55159;-20.55159;4
+646;Novo CD Goiania;362400;Novo CD Goiania;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;BRAZIL;BR;Novo CD Goiania;;-16.37592;-16.37592;4
+647;CEDRALES;13132;CEDRALES;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;CEDRALES;;-25.39116;-25.39116;4
+648;CRISTO REY;642396;CRISTO REY;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;CRISTO REY;;-25.49403;-25.49403;4
+649;CURUGUATY;13217;CURUGUATY;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;CURUGUATY;;-24.26068;-24.26068;4
+650;FORTUNA;642451;FORTUNA;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;FORTUNA;;-25.12318;-25.12318;4
+651;GENERAL DIAZ;10563;GENERAL DIAZ;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;GENERAL DIAZ;;-24.57314;-24.57314;4
+652;IMAPO;2405;IMAPO;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;IMAPO;;-24.25417;-24.25417;4
+653;ITAKYRY;9975;ITAKYRY;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;ITAKYRY;;-24.57572;-24.57572;4
+654;NUEVA TOLEDO;662167;NUEVA TOLEDO;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;NUEVA TOLEDO;;-25.0007;-25.0007;4
+655;PACURI;26708;PACURI;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;PACURI;;-25.59082;-25.59082;4
+656;SANTA ROSA;662273;SANTA ROSA;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;SANTA ROSA;;-25.49218;-25.49218;4
+657;TRONCAL 3;662365;TRONCAL 3;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;TRONCAL 3;;-24.43178;-24.43178;4
+658;VAQUERIA;9974;VAQUERIA;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;VAQUERIA;;-24.58067;-24.58067;4
+659;Trivelato;642018;Trivelato;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Trivelato;;-13.54092;-13.54092;4
+660;Vera;6741;Vera;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Vera;;-12.19162;-12.19162;4
+661;Tupaciguara;14300;Tupaciguara;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Tupaciguara;;-18.36313;-18.36313;4
+662;Barreiras;10842;Barreiras;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Brazil;;BRAZIL;BR;Barreiras;;-12.0713;-12.0713;4
+663;Tizimin;10717;Tizimin;;TRUE;LA;CASC;CASC NA;CASC Mexico;;MEXICO;MX;Tizimin;;21.10047;21.10047;4
+664;Asuncion;1330274;Asuncion;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;Asuncion;;-25.17391;-25.17391;4
+665;Agencia Ibague;9923;Agencia Ibague;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Agencia Ibague;;4.20338;4.20338;4
+666;Quatro pontes;641832;Quatro pontes;;TRUE;LA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;BRAZIL;BR;Quatro pontes;;-24.34587;-24.34587;4
+667;Frio alimentaria;1770465;Frio alimentaria;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Frio alimentaria;;10.23157;10.23157;4
+668;Barranquilla La 30;641924;Barranquilla La 30;;TRUE;LA;CPS;Cargill Protein – North America;Cargill Protein LA;;COLOMBIA;CO;Barranquilla La 30;;10.57215;10.57215;4
+669;Ciudad del Este;1850419;Ciudad del Este;;TRUE;LA;CASC;CASC South America;Grain & Oilseed Supply Chain Argentina, Paraguay, Bolivia & Uruguay;;PARAGUAY;PY;Ciudad del Este;;-25.3037;-25.3037;4
+670;Medicilandia;160014;Medicilandia;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Medicilandia;;3.26408;3.26408;4
+671;Ubaitaba;680025;Ubaitaba;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;BRAZIL;BR;Ubaitaba;;-14.18328;-14.18328;4
+672;San Jacinto;1850394;San Jacinto;;TRUE;LA;FIBI;Cocoa and Chocolate;Cocoa and Chocolate Brazil;;ECUADOR;EC;San Jacinto;;2.15164;2.15164;4
+673;Akron;1070031;Akron;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Akron;;41.0426933;41.0426933;4
+674;Albert Lea;1850195;Albert Lea;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Albert Lea;;43.625856;43.625856;4
+675;Albion;641131;Albion;;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Albion;;41.683833;41.683833;4
+676;Alliston;13722;Alliston;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Alliston;;44.16001;44.16001;4
+677;Altona;13791;Altona;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Altona;;49.10256;49.10256;4
+678;Amarillo (CFN);100184;Amarillo (CFN);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Amarillo (CFN);;35.212429;35.212429;4
+679;Amarillo (CFN admin);100184;Amarillo (CFN admin);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Amarillo (CFN admin);;35.204848;35.204848;4
+681;Atlanta;2328;Atlanta;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Starches and Sweeteners North America;;UNITED STATES OF AMERICA (THE);US;Atlanta;;33.896381;33.896381;4
+682;Beiseker;1850042;Beiseker;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Beiseker;;51.38387;51.38387;4
+683;Big Lake;12432;Big Lake;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Big Lake;;45.331415;45.331415;4
+684;Birch Hills;641392;Birch Hills;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Birch Hills;;-105.42709;-105.42709;4
+686;Bloomingburg;1850001;Bloomingburg;;TRUE;NA;ANH;Animal Nutrition & Health;CAN NA;;UNITED STATES OF AMERICA (THE);US;Bloomingburg;;39.600971;39.600971;4
+687;Bovina;1350492;Bovina;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Starches and Sweeteners North America;;UNITED STATES OF AMERICA (THE);US;Bovina;;34.5191;34.5191;4
+688;Butler;1370065;Butler;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Butler;;43.102024;43.102024;4
+689;Calgary;1370069;Calgary;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;CANADA;CA;Calgary;;51.14998;51.14998;4
+690;Canwood;661480;Canwood;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Canwood;;53.08018;53.08018;4
+691;Carseland;2030;Carseland;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Carseland;;50.850245;50.850245;4
+692;Ceder Rapids (GOSC Plant East);641095;Ceder Rapids (GOSC Plant East);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Ceder Rapids (GOSC Plant East);;41.983868;41.983868;4
+693;Ceder Rapids (Starches and Sweeteners NA);641095;Ceder Rapids (Starches and Sweeteners NA);;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Starches and Sweeteners North America;;UNITED STATES OF AMERICA (THE);US;Ceder Rapids (Starches and Sweeteners NA);;41.975473;41.975473;4
+694;Ceder Rapids (GOSC office);641095;Ceder Rapids (GOSC office);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Ceder Rapids (GOSC office);;41.982814;41.982814;4
+695;Ceder Rapids (GOSC Plant);641095;Ceder Rapids (GOSC Plant);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Ceder Rapids (GOSC Plant);;41.965302;41.965302;4
+696;Ceder Rapids (CPN Office);641095;Ceder Rapids (CPN Office);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED STATES OF AMERICA (THE);US;Ceder Rapids (CPN Office);;41.9194;41.9194;4
+697;Ceder Rapids (CAN Plant);641095;Ceder Rapids (CAN Plant);;TRUE;NA;ANH;Animal Nutrition & Health;CAN NA;;UNITED STATES OF AMERICA (THE);US;Ceder Rapids (CAN Plant);;41.98058;41.98058;4
+698;Cedar Rapids (Corn Milling);1150021;Cedar Rapids (Corn Milling);;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Corn Milling North America;;UNITED STATES OF AMERICA (THE);US;Cedar Rapids (Corn Milling);;41.9696671;41.9696671;4
+699;Chicago (FIBI Warehouse);1030267;Chicago (FIBI Warehouse);;TRUE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Chicago (FIBI Warehouse);;41.688457;41.688457;4
+700;Chicago (FIBI Plant);1030267;Chicago (FIBI Plant);;TRUE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Chicago (FIBI Plant);;41.67552;41.67552;4
+701;Chicago (Risk Mgmt Office);1030267;Chicago (Risk Mgmt Office);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Chicago (Risk Mgmt Office);;41.877326;41.877326;4
+702;Chillicothe;8418;Chillicothe;;TRUE;NA;ANH;Animal Nutrition & Health;CAN NA;;UNITED STATES OF AMERICA (THE);US;Chillicothe;;39.32882;39.32882;4
+703;Cincinnati (CASC);1030034;Cincinnati (CASC);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Cincinnati (CASC);;39.09740901;39.09740901;4
+704;Cincinnati (CAN);1030034;Cincinnati (CAN);;TRUE;NA;ANH;Animal Nutrition & Health;CAN NA;;UNITED STATES OF AMERICA (THE);US;Cincinnati (CAN);;39.097409;39.097409;4
+705;Cincinnati (Salt);1030034;Cincinnati (Salt);;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;Cincinnati (Salt);;39.09163902;39.09163902;4
+706;Cleveland (CPS);1950008;Cleveland (CPS);;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Cleveland (CPS);;41.4957001;41.4957001;4
+707;Clinton;642506;Clinton;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Clinton;;43.587564;43.587564;4
+708;Columbus (CPS);1370136;Columbus (CPS);;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Columbus (CPS);;41.438374;41.438374;4
+709;Congress;1850200;Congress;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Congress;;49.75464;49.75464;4
+710;Courtland;1070239;Courtland;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Courtland;;42.84376;42.84376;4
+711;Dalhart (FIBI);100476;Dalhart (FIBI);;TRUE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Dalhart (FIBI);;36.07943601;36.07943601;4
+712;Dalton (FIBI);100539;Dalton (FIBI);;TRUE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Dalton (FIBI);;34.70955;34.70955;4
+713;Dauphin;1850201;Dauphin;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Dauphin;;51.15116;51.15116;4
+714;Davidson;661466;Davidson;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Davidson;;51.269753;51.269753;4
+715;Dayton (CFN Main Office);1850313;Dayton (CFN Main Office);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Dayton (CFN Main Office);;39.8246139;39.8246139;4
+716;Des Moines (FIBI);1030291;Des Moines (FIBI);;TRUE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Des Moines (FIBI);;41.575573;41.575573;4
+717;Eddyville (admin);100235;Eddyville (admin);;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Starches and Sweeteners North America;;UNITED STATES OF AMERICA (THE);US;Eddyville (admin);;41.1616;41.1616;4
+719;Elk River-2;641268;Elk River;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Elk River;;45.270084;45.270084;4
+720;Elm Creek;1370168;Elm Creek;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Elm Creek;;49.678674;49.678674;4
+721;Elva (Melita);1850207;Elva (Melita);;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Elva (Melita);;49.2718;49.2718;4
+722;Equity (Three Hills);661488;Equity (Three Hills);;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Equity (Three Hills);;51.824150001;51.824150001;4
+723;Fairview;642437;Fairview;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Fairview;;56.06829;56.06829;4
+724;Florence;28937;Florence;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Florence;;42.62492;42.62492;4
+725;Flowery Branch;1850209;Flowery Branch;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Flowery Branch;;34.198332;34.198332;4
+727;Fort Worth (Cotton);1030251;Fort Worth (Cotton);;TRUE;NA;CASC;CASC NA;US and Cotton;;UNITED STATES OF AMERICA (THE);US;Fort Worth (Cotton);;32.818025;32.818025;4
+728;Fort Worth (CPS 1313);1030251;Fort Worth (CPS 1313);;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Fort Worth (CPS 1313);;32.775955;32.775955;4
+729;Fort Worth;1030251;Fort Worth;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Fort Worth;;32.829237;32.829237;4
+730;Fort Worth (CPS);1030251;Fort Worth (CPS);;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Fort Worth (CPS);;32.773757;32.773757;4
+734;Gainesville (Oil);1850283;Gainesville (Oil);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Gainesville (Oil);;34.290375001;34.290375001;4
+735;Gainesville;1850283;Gainesville;;FALSE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Gainesville;;34.28448;34.28448;4
+737;Harrow;13661;Harrow;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Harrow;;42.03101;42.03101;4
+738;Hazleton (Cocoa);1070303;Hazleton (Cocoa);;TRUE;NA;FIBI;Cocoa and Chocolate;Cargill Cocoa & Chocolate North America;;UNITED STATES OF AMERICA (THE);US;Hazleton (Cocoa);;40.95301;40.95301;4
+739;Hazleton;1070303;Hazleton;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Hazleton;;40.91241;40.91241;4
+742;Hutchinson (CASC North);1070238;Hutchinson (CASC North);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Hutchinson (CASC North);;38.05456901;38.05456901;4
+743;Hutchinson (CASC);1070238;Hutchinson (CASC);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Hutchinson (CASC);;38.054569;38.054569;4
+745;Iowa Falls;1030032;Iowa Falls;;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Iowa Falls;;42.51242;42.51242;4
+746;Kansas City Pet;1070401;Kansas City Pet;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Kansas City Pet;;39.0845434;39.0845434;4
+747;Lafayette;1070030;Lafayette;;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Lafayette;;40.405527;40.405527;4
+748;Laval;520936;Laval;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;CANADA;CA;Laval;;45.501975;45.501975;4
+749;Lethbridge (CASC);642117;Lethbridge (CASC);;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Lethbridge (CASC);;49.69815;49.69815;4
+750;Lethbridge (CASC warehouse);642117;Lethbridge (CASC warehouse);;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Lethbridge (CASC warehouse);;49.6981501;49.6981501;4
+751;Lewisburg (Premix & Nutrition);1770081;Lewisburg (Premix & Nutrition);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED STATES OF AMERICA (THE);US;Lewisburg (Premix & Nutrition);;39.834509;39.834509;4
+752;Lewisburg (Premix);1770081;Lewisburg (Premix);;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED STATES OF AMERICA (THE);US;Lewisburg (Premix);;39.844638;39.844638;4
+753;Manning;661473;Manning;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Manning;;56.9146;56.9146;4
+754;Marwayne;27996;Marwayne;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Marwayne;;53.51752;53.51752;4
+755;Mason City;1070029;Mason City;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Mason City;;43.13477;43.13477;4
+756;Maynard;641169;Maynard;;TRUE;NA;CASC;CASC NA;CASC Canada;;UNITED STATES OF AMERICA (THE);US;Maynard;;44.90612;44.90612;4
+757;Melbourne;24784;Melbourne;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Melbourne;;42.838469;42.838469;4
+758;Melita;1850207;Melita;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Melita;;49.27180001;49.27180001;4
+760;Milwaukee (Protien);1030244;Milwaukee (Protien);;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Milwaukee (Protien);;43.030436;43.030436;4
+762;Milwaukee (Salt);1030244;Milwaukee (Salt);;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;Milwaukee (Salt);;43.009617;43.009617;4
+763;Minneapolis (Aircraft);1330168;Minneapolis (Aircraft);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Minneapolis (Aircraft);;44.876436;44.876436;4
+764;Minneapolis (Retiree);1330168;Minneapolis (Retiree);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Minneapolis (Retiree);;44.978354;44.978354;4
+765;Monticello;1370023;Monticello;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Monticello;;45.304066;45.304066;4
+766;Morris (CASC warehouse);1710516;Morris (CASC warehouse);;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Morris (CASC warehouse);;50.148735;50.148735;4
+767;Naperville;1030238;Naperville;;TRUE;NA;FIBI;Cargill Starches, Sweeteners & Texturizers;Cargill Starches, Sweeteners & Texturizers-India;;UNITED STATES OF AMERICA (THE);US;Naperville;;41.8025;41.8025;4
+768;Nebraska City;1710539;Nebraska City;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Nebraska City;;40.6663492;40.6663492;4
+769;Nesbitt;641417;Nesbitt;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Nesbitt;;49.591529;49.591529;4
+770;New Madison;23365;New Madison;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED STATES OF AMERICA (THE);US;New Madison;;39.985113;39.985113;4
+771;New Paris;24226;New Paris;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED STATES OF AMERICA (THE);US;New Paris;;39.910872;39.910872;4
+772;New Richland;12436;New Richland;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;New Richland;;43.85201;43.85201;4
+773;Newnan;1030337;Newnan;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Newnan;;33.410973;33.410973;4
+774;North Olmsted;1070225;North Olmsted;;TRUE;NA;CPS;Salt;Salt;;UNITED STATES OF AMERICA (THE);US;North Olmsted;;41.416527;41.416527;4
+775;Oakner;662170;Oakner;;TRUE;NA;CASC;CASC NA;CASC NA;;CANADA;CA;Oakner;;50.0884299;50.0884299;4
+777;Oshawa;1030073;Oshawa;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Oshawa;;43.869146;43.869146;4
+778;Owatonna;9881;Owatonna;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;Owatonna;;44.0899975;44.0899975;4
+779;Penobsquis;1030402;Penobsquis;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;CANADA;CA;Penobsquis;;45.758481;45.758481;4
+780;Plumas;662209;Plumas;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Plumas;;50.387902;50.387902;4
+781;Plymouth (Research);990065;Plymouth (Research);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Plymouth (Research);;45.00083;45.00083;4
+782;Plymouth (R&D);990065;Plymouth (R&D);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Plymouth (R&D);;40.7127837;40.7127837;4
+783;Raymore;1850044;Raymore;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Raymore;;51.40976;51.40976;4
+784;Rowatt;520483;Rowatt;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Rowatt;;51.228789;51.228789;4
+785;Saint Thomas (Talbotville);1030332;Saint Thomas (Talbotville);;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Saint Thomas (Talbotville);;42.793549;42.793549;4
+786;Savage (CASC NA);1790058;Savage (CASC NA);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Savage (CASC NA);;44.782987;44.782987;4
+787;Savage (Office);1790058;Savage (Office);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Savage (Office);;44.784208;44.784208;4
+789;Shetland;26261;Shetland;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Shetland;;42.6249201;42.6249201;4
+790;Sidney (CASC);1070339;Sidney (CASC);;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Sidney (CASC);;40.274917;40.274917;4
+791;Springdale (CPS);1370394;Springdale (CPS);;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Springdale (CPS);;36.2042;36.2042;4
+793;Staples;13734;Staples;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Staples;;42.169994;42.169994;4
+794;Swan River;661502;Swan River;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Swan River;;52.10723;52.10723;4
+795;Tilbury;13436;Tilbury;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Tilbury;;42.231373;42.231373;4
+796;Trochu;1030066;Trochu;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Trochu;;51.82415;51.82415;4
+797;Unity;1030101;Unity;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Unity;;52.440229;52.440229;4
+798;Viking;1850061;Viking;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Viking;;53.09584;53.09584;4
+799;Waco;100113;Waco;;TRUE;NA;CPS;Cargill Protein – North America;Cargill Protein NA;;UNITED STATES OF AMERICA (THE);US;Waco;;31.608108;31.608108;4
+800;Waterford;14029;Waterford;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Waterford;;42.9328;42.9328;4
+802;Weatherford;642193;Weatherford;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Premix & Nutrition;;UNITED STATES OF AMERICA (THE);US;Weatherford;;32.777812;32.777812;4
+803;West Branch;1370439;West Branch;;TRUE;NA;ANH;Animal Nutrition & Health;Cargill Feed & Nutrition;;UNITED STATES OF AMERICA (THE);US;West Branch;;41.678127;41.678127;4
+804;West Lafayette;8879;West Lafayette;;TRUE;NA;ANH;Animal Nutrition & Health;CAN NA;;UNITED STATES OF AMERICA (THE);US;West Lafayette;;40.46453;40.46453;4
+806;Wichita (GEOS);2758;Wichita (GEOS);;TRUE;NA;FIBI;Global Edible Oil Solutions;Global Edible Oil Solutions;;UNITED STATES OF AMERICA (THE);US;Wichita (GEOS);;-97.327965;-97.327965;4
+807;Wichita (Innovation Center);2758;Wichita (Innovation Center);;TRUE;NA;CORP;Miscellaneous;Shared Offices;;UNITED STATES OF AMERICA (THE);US;Wichita (Innovation Center);;37.688907;37.688907;4
+808;Winkler;661505;Winkler;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Winkler;;49.18105;49.18105;4
+809;Winnipeg;1850297;Winnipeg;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Winnipeg;;49.89238;49.89238;4
+811;Wynyard;1370457;Wynyard;;TRUE;NA;CASC;CASC NA;CASC Canada;;CANADA;CA;Wynyard;;51.770257;51.770257;4
+812;Baie Comeau;1370038;Baie Comeau;;TRUE;NA;CASC;CASC NA;CASC NA;;CANADA;CA;Baie Comeau;;49.24581;49.24581;4
+813;Clavet, SK;1850296;Clavet, SK;;TRUE;NA;CASC;CASC NA;CASC NA;;CANADA;CA;Clavet, SK;;52.0271767;52.0271767;4
+814;Franklinton, LA;27293;Franklinton, LA;;TRUE;NA;ANH;CQN and Seafood;Cargill Aqua Nutrition;;UNITED STATES OF AMERICA (THE);US;Franklinton, LA;;30.8452186;30.8452186;4
+815;Houston, TX;100545;Houston, TX;;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Houston, TX;;29.7428293;29.7428293;4
+816;North Vancouver;1770001;North Vancouver;;TRUE;NA;CASC;CASC NA;CASC NA;;CANADA;CA;North Vancouver;;49.3063757;49.3063757;4
+817;Reserve, LA;662237;Reserve, LA;;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Reserve, LA;;30.0567038;30.0567038;4
+818;Sidney (FIBI);1070339;Sidney (FIBI);;TRUE;NA;FIBI;Global Edible Oil Solutions;GEOS NA;;UNITED STATES OF AMERICA (THE);US;Sidney (FIBI);;40.2749171;40.2749171;4
+819;Westwego, LA;1030292;Westwego, LA;;TRUE;NA;CASC;CASC NA;CASC NA;;UNITED STATES OF AMERICA (THE);US;Westwego, LA;;29.9385806;29.9385806;4

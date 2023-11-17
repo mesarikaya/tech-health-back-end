@@ -1,0 +1,22 @@
+id;code;description;enterpriseId
+1;CAN;Animal Nutrition & Health;1
+2;CASC APAC;Cargill Agriculture Supply Chain APAC;2
+3;CASC EMEA;Cargill Agricultural Supply Chain EMEA;2
+4;CASC NA;CASC NA;2
+5;CASC SOUTH AMERICA;CASC South America;2
+6;CBI;Cargill Bioindustrial;5
+7;CCC;Cocoa and Chocolate;5
+8;CFMETA;Cargill Foods META;5
+9;CMS;Cargill Metals & Shipping;7
+10;CPAE;Cargill Protein – Asia & Europe;4
+11;CPNA;Cargill Protein – North America;4
+12;CQN;CQN and Seafood;1
+13;CSST;Cargill Starches, Sweeteners & Texturizers;5
+14;FIBI ASIA PACIFIC;Food Ingredients & Bio Industrial Asia Pacific;5
+15;GEOS;Global Edible Oil Solutions;5
+16;GEOS-A;Global Edible Oil Solutions Australia;5
+17;GLOBAL NETWORK;Global Network Asia Pacific;3
+18;GOSC APAC;Grain & Oilseed Supply Chain APAC;2
+19;MISC;Miscellaneous;6
+20;OT;Ocean Transportation;2
+21;SALT;Salt;4

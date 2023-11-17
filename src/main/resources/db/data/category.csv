@@ -1,0 +1,39 @@
+id;description;techAreaId;isActive
+1;Server LC Status;1;TRUE
+2;Server Redundancy Status ;1;TRUE
+3;Physical vs Virtualisation Footprint;1;TRUE
+4;Backup System;2;TRUE
+5;Storage capacity;3;TRUE
+6;SQL/ Oracle DB Compliance ;4;TRUE
+7;Construction Standards;5;TRUE
+8;Fire Precautions;5;TRUE
+9;Security;5;TRUE
+10;Cooling;5;TRUE
+11;Power Distribution Standards;5;TRUE
+12;UPS;5;TRUE
+13;Rack and Accessories Standards;5;TRUE
+14;WAN;6;TRUE
+15;LAN;6;TRUE
+16;Wi-Fi;6;TRUE
+17;Security (NW);6;TRUE
+18;Voice/IPT;7;TRUE
+23;Backup Capacity;2;TRUE
+24;Device Hardware Status;2;TRUE
+25;Server Compliance status;1;TRUE
+26;Server Health Status;1;TRUE
+27;Dedicated Use;8;TRUE
+28;Cleanliness (Gen);8;TRUE
+29;Safety (General);8;TRUE
+30;Access Control (Sec);9;TRUE
+31;Fire;10;TRUE
+32;Personal;10;TRUE
+33;Maintenance Repair and Operations (Pwr);11;TRUE
+34;Resiliency;11;TRUE
+35;Access Control (Pwr);11;TRUE
+36;Safety (Env);12;TRUE
+37;Cleanliness (Env);12;TRUE
+38;Maintenance Repair and Operations (Env);12;TRUE
+39;Environment (NW);13;TRUE
+40;Life Cycle (NW);13;TRUE
+41;Design (NW);13;TRUE
+42;DNS;6;TRUE

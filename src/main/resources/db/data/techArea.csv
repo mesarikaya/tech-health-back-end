@@ -1,0 +1,14 @@
+id;description;domainId;isActive
+1;Servers;1;TRUE
+2;Backup;1;TRUE
+3;Storage;1;TRUE
+4;Database;1;TRUE
+5;Legacy (Facilities);2;TRUE
+6;Network;3;TRUE
+7;UCC;4;TRUE
+8;General (Comp. Room);2;TRUE
+9;Security and Access;2;TRUE
+10;Safety;2;TRUE
+11;Power Distribution and Operations;2;TRUE
+12;Environment and Climate Control;2;TRUE
+13;Network (Critical);3;TRUE
